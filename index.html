@@ -65,7 +65,7 @@
     <!-- Шапка сайта конец -->
     <main class="content">
         <!-- Первая секция -->
-        <div class="main">
+        <div class="main" id="main">
             <div class="container">
                 <div class="main__wrapper">
                     <!-- первая секция слайдер -->
@@ -544,30 +544,234 @@
          <!-- Секция с мнформацией начало -->
           <section class="information">
                 <div class="container">
-                    <div class="information__block">
-                        <h2 class="information__title">1win: Ведущий мировой бренд для казино-игр и ставок на спорт</h2>
-                        <p class="information__descr information__descr-gray">1win— международный бренд, создающий уникальный опыт в сфере онлайн-развлечений. Здесь вы найдете лучшие игры казино, спортивные ставки, киберспорт, покер и многое другое. Наши пользователи со всего мира получают первоклассные возможности и лучшие условия для увлекательного развлечения.</p>
-                        <h3 class="information__list-title information__list-title-gray">Почему выбирают 1win:</h3>
-                        <ul class="information__list">
-                            <li class="information__item information__item-gray">Работаем более, чем на 25 языках: 1win преодолевает языковые барьеры, чтобы каждый мог насладиться игрой, будь то казино или ставки на спорт</li>
-                            <li class="information__item information__item-gray">Инновационная платформа: наша технологичная и стабильная платформа гарантирует удобный игровой процесс на любом устройстве</li>
-                            <li class="information__item information__item-gray">Игрок на первом месте: мы заботимся о ваших интересах, подбирая развлечения на любой вкус</li>
-                            <li class="information__item information__item-gray">Высокий RTP у игр казино: наслаждайтесь играми с высоким процентом возврата — это увеличивает шансы на выигрыш</li>
-                            <li class="information__item information__item-gray">Быстрые выводы средств: выигрыши поступают моментально и безопасно</li>
-                        </ul>
+                    <div class="information__container">
+                        <div class="information__block">
+                            <h2 class="information__title">1win: Ведущий мировой бренд для казино-игр и ставок на спорт</h2>
+                            <p class="information__descr information__descr-gray">1win— международный бренд, создающий уникальный опыт в сфере онлайн-развлечений. Здесь вы найдете лучшие игры казино, спортивные ставки, киберспорт, покер и многое другое. Наши пользователи со всего мира получают первоклассные возможности и лучшие условия для увлекательного развлечения.</p>
+                            <h3 class="information__list-title information__list-title-gray">Почему выбирают 1win:</h3>
+                            <ul class="information__list">
+                                <li class="information__item information__item-gray">Работаем более, чем на 25 языках: 1win преодолевает языковые барьеры, чтобы каждый мог насладиться игрой, будь то казино или ставки на спорт</li>
+                                <li class="information__item information__item-gray">Инновационная платформа: наша технологичная и стабильная платформа гарантирует удобный игровой процесс на любом устройстве</li>
+                                <li class="information__item information__item-gray">Игрок на первом месте: мы заботимся о ваших интересах, подбирая развлечения на любой вкус</li>
+                                <li class="information__item information__item-gray">Высокий RTP у игр казино: наслаждайтесь играми с высоким процентом возврата — это увеличивает шансы на выигрыш</li>
+                                <li class="information__item information__item-gray">Быстрые выводы средств: выигрыши поступают моментально и безопасно</li>
+                            </ul>
+                        </div>
+                        <div class="information__container-hide container__hidden">
+                            <div class="information__block">
+                                <h2 class="information__title">Онлайн-казино 1win: более 11 000 игр от ведущих провайдеров</h2>
+                                <p class="information__descr information__descr-gray">В казино <a href="index.html" target="_blank">1win</a> вас ждет непрерывный поток новых игр и развлечений. Мы предлагаем широкий выбор игр, который подойдет каждому. От захватывающих слотов и увлекательных игр с быстрыми ставками до погружающих лайв-игр и динамичных виртуальных видов спорта— здесь каждый найдет что-то свое</p>
+                                <p class="information__descr information__descr-gray">В нашем казино собраны игры от лучших разработчиков индустрии, таких как <a href="#" target="_blank">Pragmatic Play</a>, <a href="#" target="_blank">Evolution Gaming</a>, <a href="#" target="_blank">Spribe</a>, <a href="#" target="_blank">100HP Gaming</a>, <a href="#" target="_blank">Evoplay</a>, <a href="#" target="_blank">Relax Gaming</a>, <a href="#" target="_blank">Play’n GO</a>, <a href="#" target="_blank">Hacksaw Gaming</a> и многих других авторитетных провайдеров</p>
+                                <p class="information__descr information__descr-gray">Также у нас есть <a href="#">оригинальные игры от 1win:</a>  эксклюзивные предложения, которые вы не найдете ни на одной другой платформе.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Краш-игры на 1win: острые ощущения и максимальный накал эмоций</h2>
+                                <p class="information__descr information__descr-gray">Почувствуйте прилив адреналина с краш-играми— это игры с быстрым темпом, в которых важна каждая секунда. Здесь выигрыши растут стремительно, и игроку нужно успеть вывести деньги до того, как игра завершится.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">На нашей платформе представлены лучшие примеры краш-игр:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">
+                                        <a href="#">Aviator</a>
+                                    </li>
+                                    <li class="information__item information__item-gray information__item-el">
+                                        <a href="#">Lucky Jet</a>
+                                    </li>
+                                    <li class="information__item information__item-gray information__item-el">
+                                        <a href="#">Aviatrix</a>
+                                    </li>
+                                    <li class="information__item information__item-gray information__item-el">
+                                        <a href="#">Tropicana</a>
+                                    </li>
+                                    <li class="information__item information__item-gray information__item-el">
+                                        <a href="#">JetX</a>
+                                    </li>
+                                    <li class="information__item information__item-gray information__item-el">
+                                        <a href="#">RocketX</a>
+                                    </li>
+                                    <li class="information__item information__item-gray information__item-el">
+                                        <a href="#">Rocket Queen</a>
+                                    </li>
+                                </ul>
+                                <p class="information__descr information__descr-gray">И это еще не всё: наш выбор краш-игр постоянно пополняется, так что вы всегда сможете найти что-то новое и захватывающее.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Лайв игры на 1win: азарт в режиме реального времени</h2>
+                                <p class="information__descr information__descr-gray">Погрузитесь в настоящую атмосферу реального казино с нашими игровыми шоу. Взаимодействуйте с профессиональными дилерами и другими игроками в режиме реального времени не выходя из дома.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">На нашей платформе вы найдете лучшие лайв-шоу игры в индустрии:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">Блэкджек: обыграйте дилера, не превышая 21 очко</li>
+                                    <li class="information__item information__item-gray information__item-el">Рулетка: делайте ставки и следите за вращением колеса</li>
+                                    <li class="information__item information__item-gray information__item-el">Баккара: делайте ставки на игрока, банкира или ничью в этой изысканной игре</li>
+                                    <li class="information__item information__item-gray information__item-el">Crazy Time: знаменитое интерактивное игровое шоу с бонусными раундами</li>
+                                </ul>
+                                <p class="information__descr information__descr-gray">И многое другое: наше <a href="#">Live-казино</a>  предлагает разнообразие игр, которые поддержат ваше настроение и азарт.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Слоты на 1win: от популярного до эксклюзивного — выбирайте и побеждайте</h2>
+                                <p class="information__descr information__descr-gray">Погрузитесь в мир <a href="#">слотов</a> с нашей огромной коллекцией, где каждый найдет что-то свое. Вас ждут увлекательные темы, уникальные игровые функции и возможность сорвать крупные джекпоты.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Популярные слоты, которые стоит попробовать:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">Fortune Tiger</li>
+                                    <li class="information__item information__item-gray information__item-el">Sugar Rush</li>
+                                    <li class="information__item information__item-gray information__item-el">Zeus vs Hades</li>
+                                    <li class="information__item information__item-gray information__item-el">Sweet Bonanza</li>
+                                    <li class="information__item information__item-gray information__item-el">Big Bass - Secrets of Golden Lake</li>
+                                    <li class="information__item information__item-gray information__item-el">The Dog House Megaways</li>
+                                </ul>
+                                <p class="information__descr information__descr-gray">И это далеко не всё — с выбором из более чем <a href="#">11 000 слотов</a> вас всегда ждет новое захватывающее приключение и шанс на крупный выигрыш.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Ставки на спорт с лучшими коэффициентами на 1win</h2>
+                                <p class="information__descr information__descr-gray">Погрузитесь в мир <a href="#">Ощутите азарт спортивных ставок вместе с <a href="#">букмекерской конторой 1win</a>, где вас ждут лучшие коэффициенты на любимые виды спорта и команды. Тысячи ставок ежедневно, широкий выбор спортивных событий и лиг — всё это делает 1win идеальным выбором для каждого спортивного фаната.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Ставки на популярные виды спорта и главные спортивные события:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">Футбол: Делайте ставки на топовые лиги, такие как Английская Премьер-лига, Ла Лига, Серия А, Бундеслига, Лига 1, а также региональные турниры — Индийская суперлига, Бразильская Серия А, Аргентинская Примера, Российская Премьер-лига и Лига MX. Также доступны все международные турниры, включая Чемпионат мира по футболу FIFA, Чемпионат Европы UEFA, Кубок Америки, Кубок Азии AFC, Кубок Африканских наций CAF, Золотой кубок КОНКАКАФ, Лигу Европы и Лигу чемпионов УЕФА.</li>
+                                    <li class="information__item information__item-gray information__item-el">Крикет: Ставьте на главные турниры по крикету Тест, ODI и лиг T20. Ставьте на такие турниры, как Индийская Премьер-лига (IPL), Big Bash League, Caribbean Premier League и международные серии с участием команд Индии, Англии, Австралии и Пакистана.</li>
+                                    <li class="information__item information__item-gray information__item-el">Теннис: Делайте ставки на турниры Большого шлема — Открытый чемпионат Австралии, Ролан Гаррос, Уимблдон и US Open, а также на турниры ATP и WTA, проходящие в течение всего года.</li>
+                                    <li class="information__item information__item-gray information__item-el">Баскетбол: Ставьте на игры НБА, а также на международные соревнования, такие как Евролига, Лига чемпионов по баскетболу, Лига ACB (Испания), Бундеслига по баскетболу (Германия) и Национальная баскетбольная лига Аргентины. Ставки также доступны на события, такие как Кубок мира ФИБА и Олимпийские игры.</li>
+                                    <li class="information__item information__item-gray information__item-el">Хоккей: Делайте ставки на ведущие лиги, такие как Национальная хоккейная лига (НХЛ), Континентальная хоккейная лига (КХЛ) в России, а также на международные турниры, включая Чемпионат мира ИИХФ и Кубок мира по хоккею.</li>
+                                    <li class="information__item information__item-gray information__item-el">Бокс и ММА: Ставьте на громкие поединки с участием боксеров и бойцов из Латинской Америки, Африки, Европы и Азии. Доступны ставки на бои в таких организациях, как Matchroom Boxing, Top Rank, UFC и Bellator.</li>
+                                    <li class="information__item information__item-gray information__item-el">Киберспорт: Погрузитесь в мир ставок на <a href="#">киберспорт</a> с популярными играми, такими как Dota 2, Counter-Strike: Global Offensive (CS:GO), League of Legends (LoL), Fifa, FC25, Free Fire и Valorant.</li>
+                                    <li class="information__item information__item-gray information__item-el">Мотоспорт: Делайте ставки на международные гоночные события, такие как Формула-1, MotoGP, Чемпионат мира по ралли (WRC) и NASCAR Mexico Series.</li>
+                                    <li class="information__item information__item-gray information__item-el">И это ещё не всё: на 1win доступны ставки на волейбол, гандбол, настольный теннис, велоспорт, бадминтон, снукер, хоккей на траве, легкую атлетику и множество других видов спорта.</li>
+                                </ul>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Live-ставки и прямые трансляции на 1win: будьте в центре событий</h2>
+                                <p class="information__descr information__descr-gray">Используйте преимущества Live-ставок и прямых трансляций на 1win для максимального вовлечения.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Лайв-ставки:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">Динамические коэффициенты обновляются в реальном времени в зависимости от текущего хода игры.</li>
+                                    <li class="information__item information__item-gray information__item-el">Разнообразие рынков: делайте ставки на такие исходы, как следующий гол, следующая подача, победитель матча и многие другие.</li>
+                                    <li class="information__item information__item-gray information__item-el">Мгновенное взаимодействие: идеально для тех, кто хочет быстро реагировать на происходящее на поле.</li>
+                                </ul>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Прямые трансляции спортивных событий:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">Смотрите и ставьте на отдельные события прямо на нашей платформе.</li>
+                                    <li class="information__item information__item-gray information__item-el">Обновления в реальном времени: оставайтесь в курсе с помощью живой статистики и актуальных данных.</li>
+                                    <li class="information__item information__item-gray information__item-el">Доступ отовсюду: смотрите трансляции с настольного компьютера или мобильного устройства..</li>
+                                </ul>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Бонусы и бесплатные деньги: повысьте свои выигрыши с 1win</h2>
+                                <p class="information__descr information__descr-gray">Мы ценим доверие наших игроков и щедро вознаграждаем их. Наши  <a href="#">бонусные программы</a> созданы для того, чтобы улучшить игровой опыт и предоставить больше возможностей для побед.</p>
+                                <p class="information__descr information__descr-gray">Вы найдете ежедневные ваучеры, еженедельный кэшбэк до 30% на казино, лотереи , фриспины и розыгрыши с призами Lucky Drive.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Lucky Drive: выигрывайте суперкар и десятки призов каждый месяц</h2>
+                                <p class="information__descr information__descr-gray">Lucky Drive — это уникальный и беспрецедентный ежемесячный розыгрыш от 1win, в котором дарят роскошные автомобили и более 50 призов. Акция доступна всем зарегистрированным игрокам. Каждый полученный билет увеличивает ваши шансы на победу. Чем больше у вас билетов, тем выше вероятность выиграть приз</p>
+                                <p class="information__descr information__descr-gray">Не упустите шанс: наши бонусные программы постоянно обновляются, так что заходите регулярно, чтобы узнавать о новых акциях и предложениях.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Быстрые депозиты и легкие выводы: удобные способы оплаты</h2>
+                                <p class="information__descr information__descr-gray">В 1win мы понимаем, что быстрые депозиты и легкие выводы — это важная часть отличного пользовательского опыта. Поэтому мы постоянно расширяем список платежных методов, чтобы предложить надежные и удобные варианты, соответствующие вашим предпочтениям.</p>
+                                <p class="information__descr information__descr-gray">Мы поддерживаем множество проверенных международных способов оплаты и платежных систем, обеспечивая быструю и безопасную обработку транзакций.</p>
+                                <p class="information__descr information__descr-gray">Среди доступных вариантов оплаты: Visa, Mastercard, PayPal, Skrill, AstroPay, Perfect Money и многие другие. Мы регулярно добавляем новые платежные методы, чтобы удовлетворить потребности пользователей по всему миру и предоставить еще больше вариантов.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Криптовалютная свобода: играйте и оплачивайте в цифровых активах</h2>
+                                <p class="information__descr information__descr-gray">Идем в ногу с будущим цифровых транзакций — 1win поддерживает криптовалютные платежи, обеспечивая вам гибкость и анонимность в проведении операций.</p>
+                                <p class="information__descr information__descr-gray">Как и положено крупнейшему крипто-казино, мы поддерживаем широкий выбор популярных цифровых активов. На 1win вы можете пополнять счет и выводить средства с помощью Tether (USDT), Bitcoin (BTC), Ethereum (ETH), Tron (TRX), Ripple (XRP), Dash (DASH), Dogecoin (DOGE), Binance Coin (BNB), Zcash (ZEC), Litecoin (LTC), Monero (XMR) и других криптовалют.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Ответственная игра и поддержка клиентов</h2>
+                                <p class="information__descr information__descr-gray">1win ставит на первое место ответственное отношение к игре и удовлетворение потребностей наших игроков.</p>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Инструменты для ответственной игры:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">Устанавливайте лимиты на депозиты, ставки или при необходимости используйте опцию самоисключения.</li>
+                                    <li class="information__item information__item-gray information__item-el">Получите доступ к образовательным материалам о принципах ответственной игры.</li>
+                                </ul>
+                            </div>
+                            <div class="information__block">
+                                <h2 class="information__title">Круглосуточная поддержка клиентов:</h2>
+                                <ul class="information__list information__list-els">
+                                    <li class="information__item information__item-gray information__item-el">Наша команда всегда готова помочь вам в любое время через онлайн-чат, электронную почту или по телефону.</li>
+                                </ul>
+                                <p class="information__descr information__descr-gray">Регистрируйтесь на 1win сегодня, чтобы открыть мир возможностей для игр и ставок, созданных специально для вас.</p>
+                            </div>
+                        </div>
+                        <button class="information__btn">
+                            <p class="information__btn-text">Читать далее</p>
+                            <div class="information__btn-img">
+                                <img src="icons/arow-top.svg" alt="Стрелка" loading="lazy">
+                            </div>
+                        </button>
                     </div>
-
-                    <div class="information__block">
-                        <h2 class="information__title">Онлайн-казино 1win: более 11 000 игр от ведущих провайдеров</h2>
-                        <p class="information__descr information__descr-gray">В казино <a href="#" target="_blank">1win</a> вас ждет непрерывный поток новых игр и развлечений. Мы предлагаем широкий выбор игр, который подойдет каждому. От захватывающих слотов и увлекательных игр с быстрыми ставками до погружающих лайв-игр и динамичных виртуальных видов спорта— здесь каждый найдет что-то свое</p>
-
-                         <p class="information__descr information__descr-gray">В нашем казино собраны игры от лучших разработчиков индустрии, таких как <a href="#" target="_blank">Pragmatic Play</a>, <a href="#" target="_blank">Evolution Gaming</a>, <a href="#" target="_blank">Spribe</a>, <a href="#" target="_blank">100HP Gaming</a>, <a href="#" target="_blank">Evoplay</a>, <a href="#" target="_blank">Relax Gaming</a>, <a href="#" target="_blank">Play’n GO</a>, <a href="#" target="_blank">Hacksaw Gaming</a> и многих других авторитетных провайдеров</p>
-                    </div>
+                    
                 </div>
           </section>
          <!-- Секция с мнформацией конец -->
+        
     </main>
+    <footer class="footer">
+        <!-- Смена языка начало -->
+            <div class="language footer__language">
+                <div class="container">
+                    <div class="language__wrapper">
+                        <div class="language__logo">
+                            <img src="icons/logo.svg" alt="Логотип сайта" loading="lazy">
+                        </div>
+                        <div class="language__line"></div>
+                        <button class="language__change">
+                            <div class="language__change-flag">
+                                <img src="icons/ru-RU.svg" alt="Russian" loading="lazy">
+                            </div>
+                            <div class="language__change-text">RU</div>
+                            <div class="language__change-chewron">
+                                <img src="icons/arow-top.svg" alt="Стрелка">
+                            </div>
+                        </button>
+                        <a href="#main" class="language__syte-top">
+                            <img src="icons/arow-up.svg" alt="Стрелка вверх" loading="lazy">
+                        </a>
+                    </div>
+                </div>
+            </div>
+         <!-- Смена языка конец -->
+        <div class="support footer__support">
+            <div class="container">
+                <div class="support__wrapper">
+                    <div class="support__left">
+                        <div class="support__item">
+                            <div class="support__item-head">
+                                <h2 class="support__item-title">Поддержка <span>24/7</span></h2>
+                            </div>
+                            <div class="support__item-descr">Свяжитесь с нами, если у вас остались вопросы</div>
+                            <button class="support__item-btn">Обратиться в поддержку</button>
+                            <div class="support__item-woman">
+                                <img src="img/fg-5.avif" alt="woman">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="support__center">
+                        <div class="support__item-center support__item">
+                            <h2 class="support__item-center--title">Коммерческие предложения</h2>
+                            <a href="#" class="support__item-center--email">business@1win.social</a>
+                        </div>
+                        <div class="support__item-center support__item">
+                            <h2 class="support__item-center--title">Коммерческие предложения</h2>
+                            <a href="#" class="support__item-center--email">business@1win.social</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/information.js"></script>
 </body>
 </html>
