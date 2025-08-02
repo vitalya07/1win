@@ -1,0 +1,53 @@
+.information {
+    max-width: 773px;
+    &__title {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: $whiteColor;
+        margin-bottom: 16px;
+    }
+    &__descr {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;       
+        margin-bottom: 16px;
+        &-gray {
+            color: #9aa1b1;
+        }
+        & > a {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 120%;
+            display: inline;
+            color: $blueColor;
+        }
+    }
+    &__list {
+        list-style: disc;
+        &-title {
+            font-family: "Inter", sans-serif;
+            font-weight: bolder;
+            font-size: 12px;
+            line-height: 120%;       
+            margin-bottom: 16px;
+            &-gray {
+                color: #9aa1b1;
+                margin-bottom: 16px;
+            }
+        }
+    }
+    &__item {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;       
+        margin-bottom: 16px;
+        &-gray {
+            color: #9aa1b1;
+        }
+    }
+}

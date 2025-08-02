@@ -569,4 +569,58 @@ ul {
 
 .popular-swiper {
   padding: 56px 0 32px 0;
+}
+
+.information {
+  max-width: 773px;
+}
+.information__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.information__descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+.information__descr-gray {
+  color: #9aa1b1;
+}
+.information__descr > a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  display: inline;
+  color: #0075ff;
+}
+.information__list {
+  list-style: disc;
+}
+.information__list-title {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  font-size: 12px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+.information__list-title-gray {
+  color: #9aa1b1;
+  margin-bottom: 16px;
+}
+.information__item {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+.information__item-gray {
+  color: #9aa1b1;
 }/*# sourceMappingURL=style.css.map */
