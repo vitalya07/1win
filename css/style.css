@@ -1865,4 +1865,422 @@ ul {
   border-radius: 999px;
   width: 38px;
   height: 20px;
+}
+
+.menu__mobile {
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid #2f3033;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background-color: #141415;
+  z-index: 10;
+}
+.menu__mobile-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu__mobile-item {
+  width: 60px;
+  height: 30px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.menu__mobile-hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.menu__mobile-hamburger > span {
+  width: 20px;
+  height: 2px;
+  background-color: #9aa1b1;
+  border-radius: 2px;
+}
+.menu__mobile-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  color: #9aa1b1;
+  text-align: center;
+}
+.menu__mobile-img {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.menu__mobile-img > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 1650px) {
+  .container {
+    max-width: 1024px;
+    padding-left: 100px;
+  }
+  .main__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main__slider {
+    width: 100%;
+  }
+  .main__elements {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .main__freemoney {
+    width: 450px;
+  }
+  .support__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .deposit__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 210px;
+  }
+  .deposit__center {
+    width: 200px;
+    height: 0;
+  }
+  .deposit__surprise {
+    width: 347px;
+    height: 115%;
+    right: 0;
+  }
+  .deposit__surprise > img {
+    border-radius: 30px;
+  }
+}
+@media (max-width: 1480px) {
+  .container {
+    max-width: 993px;
+  }
+  .pageslink__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pageslink__left {
+    margin-bottom: 50px;
+  }
+  .pageslink__category-lists {
+    gap: 10px;
+  }
+  .menu {
+    width: 220px;
+  }
+  .menu__freemoney {
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+  }
+  .menu__freemoney-img {
+    width: 60px;
+  }
+  .menu__app {
+    width: 100%;
+    height: auto;
+  }
+  .menu__app-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu__app-img {
+    width: 32px;
+    height: 32px;
+  }
+  .menu__app-img > img {
+    width: 20px;
+  }
+  .menu__app-descr {
+    display: none;
+  }
+  .menu__social-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 12px;
+  }
+  .menu__support {
+    width: 200px;
+  }
+  .menu__support-wrapper {
+    gap: 8px;
+  }
+  .menu__support-btn {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    max-width: 768px;
+  }
+  .header__nav-text {
+    display: none;
+  }
+  .main__elements {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .main__freemoney {
+    width: 100%;
+  }
+  .deposit__center {
+    display: none;
+  }
+  .deposit__surprise {
+    display: none;
+  }
+  .language__syte-top {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 680px;
+  }
+  .main__slider-item {
+    height: 250px;
+  }
+  .main__slider-title {
+    max-width: 40%;
+    font-size: 22px;
+  }
+  .menu {
+    width: 60px;
+    padding: 2px;
+  }
+  .menu__header-title {
+    display: none;
+  }
+  .menu__header-chewron {
+    display: none;
+  }
+  .menu__freemoney {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    height: 115px;
+    padding: 12px 2px;
+  }
+  .menu__games-title {
+    display: none;
+  }
+  .menu__games-chewron {
+    display: none;
+  }
+  .menu__games-bonus {
+    display: none;
+  }
+  .menu__games-vip {
+    display: none;
+  }
+  .menu__app {
+    padding: 2px;
+  }
+  .menu__app-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu__app-center {
+    display: none;
+  }
+  .menu__app-title {
+    display: none;
+  }
+  .menu__app-chewron {
+    display: none;
+  }
+  .menu__social-network {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu__language {
+    padding: 2px;
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu__language-name {
+    display: none;
+  }
+  .menu__language-chewron {
+    display: none;
+  }
+  .menu__support {
+    width: 60px;
+    height: 20px;
+    padding: 2px;
+    bottom: 0px;
+  }
+  .menu__support-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .menu__support-btn {
+    width: 26px;
+    height: 26px;
+  }
+  .menu__support-btn > img {
+    width: 80%;
+    height: 80%;
+  }
+  .menu__support-name {
+    display: none;
+  }
+  .menu__support-chart {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 556px;
+    padding: 0 15px;
+  }
+  .pageslink__apps {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .syte__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .menu__mobile {
+    display: block;
+  }
+  .support__item {
+    width: 320px;
+    padding: 10px;
+    max-width: 320px;
+  }
+}
+@media (max-width: 556px) {
+  .main__slider-arrows {
+    display: none;
+  }
+  .main__slider-title {
+    max-width: 70%;
+  }
+  .games__slider-arrows {
+    display: none;
+  }
+  .games__head-logo {
+    width: 30px;
+    height: auto;
+  }
+  .games__head-title {
+    font-size: 16px;
+  }
+  .games__all {
+    top: 10px;
+    right: 0;
+  }
+  .copy {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 360px) {
+  .main__slider-title {
+    font-size: 18px;
+  }
+  .deposit__wrapper {
+    height: 320px;
+    padding: 16px;
+  }
+  .deposit__left-steps {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pageslink__left {
+    gap: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=style.css.map */

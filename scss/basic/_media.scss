@@ -1,0 +1,347 @@
+@media (max-width: 1650px) {
+    .container {
+        max-width: 1024px;
+        padding-left: 100px;
+    }
+    .main {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__slider {
+            width: 100%;
+        }
+        &__elements {
+            flex-direction: row;
+        }
+        &__freemoney {
+            width: 450px;
+        }
+    }
+    .support {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+    .deposit {
+        &__wrapper {
+            flex-wrap: wrap;
+            height: 210px;
+        }
+        &__center {
+            width: 200px;
+            height: 0;
+        }
+        &__surprise {
+            width: 347px;
+            height: 115%;
+            right: 0;
+            & > img {
+                border-radius: 30px;
+            }
+        }
+    }
+}
+@media(max-width:1480px) {
+    .container {
+        max-width: 993px;
+    }
+    .pageslink {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__left {
+            margin-bottom: 50px;
+        }
+        &__category {
+            &-lists {
+                gap: 10px;
+            }
+        }
+    }
+    .menu {
+        width: 220px;
+        &__freemoney {
+            width: 100%;
+            height: 40px; 
+            border-radius: 12px;
+            &-img {
+                width: 60px;
+            }
+        }
+        &__app {
+            width: 100%;
+            height: auto;
+            &-wrapper {
+                justify-content: center;
+                align-items: center;
+            }
+            &-img {
+                width: 32px;
+                height: 32px;
+                & > img {
+                    width: 20px;
+                }
+            }
+            &-descr {
+                display: none;
+            }
+        }
+        &__social {
+            &-wrapper {
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+        }
+        &__support {
+            width: 200px;
+            &-wrapper {
+                gap: 8px;
+            }
+            &-btn {
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+}
+@media(max-width:1280px) {
+    .container {
+        max-width: 768px;
+    }
+    .header {
+        &__nav {
+            &-text {
+                display: none;
+            }
+        }
+    }
+    .main {
+        &__elements {
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        &__freemoney {
+            width: 100%;
+        }
+    }
+    .deposit {
+        &__center {
+            display: none;
+        }
+        &__surprise {
+            display: none;
+        }
+    }
+    .language {
+        &__syte {
+            &-top {
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width:1024px) {
+    .container {
+        max-width: 680px;
+    }
+    .main {
+        &__slider {
+            &-item {
+                height: 250px;
+            }
+            &-title {
+                max-width: 40%;
+                font-size: 22px;
+            }
+        }
+    }
+    .menu {
+        width: 60px;
+        padding: 2px;
+        &__header {
+            &-title {
+                display: none;
+            }
+            &-chewron {
+                display: none;
+            }
+        }
+        &__freemoney {
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            height: 115px;
+            padding: 12px 2px;
+        }
+        &__games {
+            &-title {
+                display: none;
+            }
+            &-chewron {
+                display: none;
+            }
+            &-bonus {
+                display: none;
+            }
+            &-vip {
+                display: none;
+            }
+        }
+        &__app {
+            padding: 2px;
+            &-wrapper {
+                justify-content: center;
+                align-items: center;
+            }
+            &-center {
+                display: none;
+            }
+            &-title {
+                display: none;
+            }
+            &-chewron {
+                display: none;
+            }
+        }
+        &__social {
+            &-network {
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        &__language {
+            padding: 2px;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &-name {
+                display: none;
+            }
+            &-chewron {
+                display: none;
+            }
+        }
+        &__support {
+            width: 60px;
+            height: 20px;
+            padding: 2px;
+            bottom: 0px;
+            &-wrapper {
+                flex-direction: column;
+                gap: 10px;
+            } 
+            &-btn {
+                width: 26px;
+                height: 26px;
+                & > img {
+                   width: 80%;
+                   height: 80%;
+                }
+            }  
+            &-name {
+                display: none;
+            }  
+            &-chart {
+                display: none;
+            }       
+        }
+    }
+}
+@media (max-width:768px) {
+    .container {
+        max-width: 556px;
+        padding: 0 15px;
+    }
+    .pageslink {
+        &__apps {
+            flex-wrap: wrap;
+            align-items: start;
+            justify-content: start;
+        }
+    }
+    .syte {
+        &__wrapper {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+    .header__nav {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .menu__mobile {
+        display: block;
+    }
+    .support {
+        &__item {
+            width: 320px;
+            padding: 10px;
+            max-width: 320px;
+        }
+    }
+}
+@media (max-width: 556px) {
+    .main__slider-arrows {
+        display: none;
+    }
+    .main {
+        &__slider {
+            &-title {
+                max-width: 70%;
+            }
+        }
+    }
+    .games {
+        &__slider {
+            &-arrows {
+                display: none;
+            }
+        }
+        &__head {
+            &-logo {
+                width: 30px;
+                height: auto;
+            }
+            &-title {
+                font-size: 16px;
+            }
+        }
+        &__all {
+            top: 10px;
+            right: 0;
+        }
+    }
+    .copy {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 360px) {
+    .main {
+        &__slider {
+            &-title {
+                font-size: 18px;
+            }
+        }
+    }
+    .deposit {
+        &__wrapper {
+            height: 320px;
+            padding: 16px;
+        }
+        &__left {
+            &-steps {
+                flex-wrap: wrap;
+            }
+        }
+    }
+    .pageslink {
+        &__left {
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    }
+}
