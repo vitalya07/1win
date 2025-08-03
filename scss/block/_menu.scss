@@ -1,0 +1,178 @@
+.menu {
+    background-color: $blackColor;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    padding: 16px;
+    overflow: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none; 
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+        position: relative;
+        cursor: pointer;
+         margin-bottom: 12px;
+        &-user {
+            background-color: #2f3033;
+            border-radius: 100%;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            & > img {
+                width: 24px;
+                height: 24px;
+                object-fit: cover;
+            }
+        }
+        &-title {
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 120%;
+            color: #f0f2f5;
+        }
+        &-chewron {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            width: 24px;
+            height: 24px;
+            & > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &:hover {
+            .menu__header-user {
+                background-color: $grayColor2;
+            }
+            
+        }
+    }
+    &__freemoney {
+        background: linear-gradient(90deg, #043639, #005359);
+        width: 247px;
+        height: 60px;
+        padding: 12px 0 12px 14px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;       
+        &-title {
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 120%;
+            color: $whiteColor;
+            max-width: 40px;
+        }
+        &-img {
+            width: 90px;
+            height: auto;
+            & > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &__line {
+        width: 100%;
+        height: 1px;
+        background-color: #2f3033;
+        margin: 16px 0;
+    }
+    &__games {
+        &-item {
+            width: 100%;
+            height: 36px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            position: relative;
+            padding: 0 10px;
+            margin-bottom: 5px;
+            &:hover {
+                background-color: $grayColor;
+            }
+        }
+        &-img {
+            width: 20px;
+            height: auto;
+            & > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &-title {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 120%;
+            color: #f0f2f5;
+        }
+        &-chewron {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%) rotate(90deg);
+            & > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &-bonus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 120%;
+            color: $whiteColor;
+            background-color: #ff006a;
+            border-radius: 999px;
+            width: 28px;
+            height: 20px;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+        }
+        &-vip {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 120%;
+            color: $whiteColor;
+            background-color: $blueColor;
+            border-radius: 999px;
+            width: 38px;
+            height: 20px;
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+        }
+    }
+}
