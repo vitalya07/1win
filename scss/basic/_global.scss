@@ -10,3 +10,16 @@
 .container__hidden {
     display: none;
 }
+.columns {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 44px;
+    max-width: 100%;
+}
+.left {
+    width: 270px;
+}
+.right {
+    max-width: 1500px;
+}

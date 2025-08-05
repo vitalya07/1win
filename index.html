@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Меню слева начало -->
-    <article class="menu">
-        <!-- Вход в личный кабинет начало -->
-        <div class="menu__header">
-            <div class="menu__header-user">
-                <img src="icons/User.svg" alt="Личный кабинет" loading="lazy">                
+    <div class="columns">
+        <div class="left">
+         <!-- Меню слева начало -->
+        <article class="menu">
+            <!-- Вход в личный кабинет начало -->
+            <div class="menu__header">
+                <div class="menu__header-user">
+                    <img src="icons/User.svg" alt="Личный кабинет" loading="lazy">                
+                </div>
+                <h3 class="menu__header-title">Войти</h3>
+                <div class="menu__header-chewron">
+                    <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
+                </div>
             </div>
-            <h3 class="menu__header-title">Войти</h3>
-            <div class="menu__header-chewron">
-                <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
-            </div>
-        </div>
-        <!-- Вход в личный кабинет конец -->
-        <!-- Freee money начало -->
-        <a class="menu__freemoney">
-            <h3 class="menu__freemoney-title">Free money</h3>
-            <div class="menu__freemoney-img">
-                <img src="img/full-v1.avif" alt="free money" loading="lazy">
-            </div>
-        </a>
-        <div class="menu__line"></div>
-        <!-- Freee money конец -->
-        <!-- Список игр начало -->
+            <!-- Вход в личный кабинет конец -->
+            <!-- Freee money начало -->
+            <a class="menu__freemoney">
+                <h3 class="menu__freemoney-title">Free money</h3>
+                <div class="menu__freemoney-img">
+                    <img src="img/full-v1.avif" alt="free money" loading="lazy">
+                </div>
+            </a>
+            <div class="menu__line"></div>
+            <!-- Freee money конец -->
+            <!-- Список игр начало -->
             <div class="menu__games">
                 <a href="#" class="menu__games-item">
                     <div class="menu__games-img">
@@ -161,9 +163,9 @@
                     <h2 class="menu__games-title">TV BET</h2>
                 </a>
             </div>
-        <!-- Список игр конец -->
+            <!-- Список игр конец -->
 
-        <!-- Приложение начало -->
+            <!-- Приложение начало -->
             <a class="menu__app">
                 <div class="menu__app-wrapper">
                     <div class="menu__app-img">
@@ -178,8 +180,8 @@
                     </div>
                 </div>
             </a>
-        <!-- Приложение конец -->
-        <!-- меню с соц сетями начало -->
+            <!-- Приложение конец -->
+            <!-- меню с соц сетями начало -->
             <div class="menu__social">
                 <div class="menu__social-wrapper">
                     <div class="menu__social-network">
@@ -206,9 +208,9 @@
                 </div>
             </div>
             <div class="menu__line"></div>
-        <!-- меню с соц сетями конец -->
-        <!-- поддержка в меню начало -->
-         <div class="menu__support">
+            <!-- меню с соц сетями конец -->
+            <!-- поддержка в меню начало -->
+            <div class="menu__support">
             <div class="menu__support-wrapper">
                 <button class="menu__support-btn">
                     <img src="icons/phone.svg" alt="телефон" loading="lazy">
@@ -219,967 +221,972 @@
                 <h4 class="menu__support-name">Поддержка</h4>
                 <div class="menu__support-chart">24/7</div>
             </div>
-         </div>
-        <!-- поддержка в меню конец -->
-    </article>
-     <!-- Меню слева конец -->
-   <!-- Шапка сайта -->
-    <header class="header">
-        <div class="container">
-            <div class="header__wrapper">
-                <div class="header__left">
-                    <a href="index.html" class="header__logo">
-                        <img src="icons/logo.svg" alt="Логотип сайта" loading="lazy">
-                    </a>
-                    <nav class="header__nav">
-                        <ul class="header__nav-list">
-                            <li class="btn-active" >
-                                <a href="#">
-                                    <div class="header__nav-img">
-                                        <img src="icons/home.svg" alt="дом">
-                                    </div>
-                                    <div class="header__nav-text">Главная</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="header__nav-img">
-                                        <img src="icons/casino.svg" alt="Казино">
-                                    </div>
-                                    <div class="header__nav-text">Казино</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="header__nav-img">
-                                        <img src="icons/gift.svg" alt="Free money" class="my-icon">
-                                    </div>
-                                    <div class="header__nav-text">Free money</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="header__nav-img">
-                                        <img src="icons/sport.svg" alt="Спорт">
-                                    </div>
-                                    <div class="header__nav-text">Спорт</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                
-                <div class="header__buttons">
-                    <button class="header__btn">Вход</button>
-                    <button class="header__btn header__btn-registr">Регистрация</button>
-                </div>
             </div>
+            <!-- поддержка в меню конец -->
+        </article>
+     <!-- Меню слева конец -->
         </div>
-    </header>
-    <!-- Шапка сайта конец -->
-    <main class="content">
-        <!-- Первая секция -->
-        <div class="main" id="main">
-            <div class="container">
-                <div class="main__wrapper">
-                    <!-- первая секция слайдер -->
-                    <div class="main__slider">
-                        <div class="swiper main__swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="main__slider-item">
-                                        <div class="main__slider-img">
-                                            <img src="img/slide/slide1.avif" alt="slide1" loading="lazy">
+        <div class="right">
+            <!-- Шапка сайта -->
+                <header class="header">
+                    <div class="container">
+                        <div class="header__wrapper">
+                            <div class="header__left">
+                                <a href="index.html" class="header__logo">
+                                    <img src="icons/logo.svg" alt="Логотип сайта" loading="lazy">
+                                </a>
+                                <nav class="header__nav">
+                                    <ul class="header__nav-list">
+                                        <li class="btn-active" >
+                                            <a href="#">
+                                                <div class="header__nav-img">
+                                                    <img src="icons/home.svg" alt="дом">
+                                                </div>
+                                                <div class="header__nav-text">Главная</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="header__nav-img">
+                                                    <img src="icons/casino.svg" alt="Казино">
+                                                </div>
+                                                <div class="header__nav-text">Казино</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="header__nav-img">
+                                                    <img src="icons/gift.svg" alt="Free money" class="my-icon">
+                                                </div>
+                                                <div class="header__nav-text">Free money</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="header__nav-img">
+                                                    <img src="icons/sport.svg" alt="Спорт">
+                                                </div>
+                                                <div class="header__nav-text">Спорт</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            
+                            <div class="header__buttons">
+                                <button class="header__btn">Вход</button>
+                                <button class="header__btn header__btn-registr">Регистрация</button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- Шапка сайта конец -->
+                <main class="content">
+                    <!-- Первая секция -->
+                    <div class="main" id="main">
+                        <div class="container">
+                            <div class="main__wrapper">
+                                <!-- первая секция слайдер -->
+                                <div class="main__slider">
+                                    <div class="swiper main__swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="main__slider-item">
+                                                    <div class="main__slider-img">
+                                                        <img src="img/slide/slide1.avif" alt="slide1" loading="lazy">
+                                                    </div>
+                                                    <div class="main__slider-title">Бонус на депозит в криптовалюте: 100 фриспинов в 1win Bonanza</div>
+                                                    <a href="#" class="main__slider-btn">Забрать</a>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="main__slider-item">
+                                                    <div class="main__slider-img">
+                                                        <img src="img/slide/slide2.avif" alt="slide2" loading="lazy">
+                                                    </div>
+                                                    <div class="main__slider-title">Еженедельный кэшбэк до 30% за игры в казино </div>
+                                                    <a href="#" class="main__slider-btn">Играть</a>
+                                                </div>
+                                            </div> 
+                                            <div class="swiper-slide">
+                                                <div class="main__slider-item">
+                                                    <div class="main__slider-img">
+                                                        <img src="img/slide/slide3.avif" alt="slide2" loading="lazy">
+                                                    </div>
+                                                    <div class="main__slider-title">BRABUS 900, техника Apple и фриспины</div>
+                                                    <a href="#" class="main__slider-btn">Участвовать</a>
+                                                </div>
+                                            </div>  
+                                            <div class="swiper-slide">
+                                                <div class="main__slider-item">
+                                                    <div class="main__slider-img">
+                                                        <img src="img/slide/slide4.avif" alt="slide2" loading="lazy">
+                                                    </div>
+                                                    <div class="main__slider-title">Esports World Cup: дарим фрибеты и 30 000$ призовых</div>
+                                                    <a href="#" class="main__slider-btn">Участвовать</a>
+                                                </div>
+                                            </div>     
+                                            <div class="swiper-slide">
+                                                <div class="main__slider-item">
+                                                    <div class="main__slider-img">
+                                                        <img src="img/slide/slide5.avif" alt="slide2" loading="lazy">
+                                                    </div>
+                                                    <div class="main__slider-title">Бонус +500% на первые 4 депозита</div>
+                                                    <a href="#" class="main__slider-btn">Зарегистрироваться</a>
+                                                </div>                                    
+                                            </div>  
+                                            <div class="swiper-slide">
+                                                <div class="main__slider-item">
+                                                    <div class="main__slider-img">
+                                                        <img src="img/slide/slide6.avif" alt="slide2" loading="lazy">
+                                                    </div>
+                                                    <div class="main__slider-title">Бонус ждет: 500 фриспинов всем новым пользователям</div>
+                                                    <a href="#" class="main__slider-btn">Зарегистрироваться</a>
+                                                </div>                                    
+                                            </div>                                                  
                                         </div>
-                                        <div class="main__slider-title">Бонус на депозит в криптовалюте: 100 фриспинов в 1win Bonanza</div>
-                                        <a href="#" class="main__slider-btn">Забрать</a>
+                                        <div class="main__slider-arrows">
+                                            <div class="swiper-button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
+                                            <div class="swiper-button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="main__slider-item">
-                                        <div class="main__slider-img">
-                                            <img src="img/slide/slide2.avif" alt="slide2" loading="lazy">
-                                        </div>
-                                        <div class="main__slider-title">Еженедельный кэшбэк до 30% за игры в казино </div>
-                                        <a href="#" class="main__slider-btn">Играть</a>
+                                <!-- первая секция слайдер конец-->
+                                <!-- Первая секция элементы начало -->
+                                <div class="main__elements">
+                                    <div class="main__freemoney">
+                                        <div class="main__freemoney-wrapper">
+                                            <div class="main__freemoney-left">
+                                                <a href="#" class="main__freemoney-link">Free money</a>
+                                                <h2 class="main__freemoney-title">Разыгрываем Brabus и другие призы</h2>
+                                            </div>
+                                            <div class="main__freemoney-img">
+                                                <img src="img/freemoney_main.avif" alt="free money" loading="lazy">
+                                            </div>
+                                        </div>                           
                                     </div>
-                                </div> 
-                                <div class="swiper-slide">
-                                    <div class="main__slider-item">
-                                        <div class="main__slider-img">
-                                            <img src="img/slide/slide3.avif" alt="slide2" loading="lazy">
-                                        </div>
-                                        <div class="main__slider-title">BRABUS 900, техника Apple и фриспины</div>
-                                        <a href="#" class="main__slider-btn">Участвовать</a>
+                                    <div class="main__freemoney main__bonus">
+                                        <div class="main__freemoney-wrapper main__bonus-wrapper">
+                                            <div class="main__freemoney-left main__bonus-left">
+                                                <a href="#" class="main__freemoney-link main__bonus-link">Бонусы</a>
+                                                <h2 class="main__freemoney-title main__bonus-title"> <span></span> 1 доступный бонус</h2>
+                                            </div>
+                                            <div class="main__freemoney-img main__bonus-img">
+                                                <img src="img/main_bonus_768.avif" alt="free money" loading="lazy">
+                                            </div>
+                                        </div>                           
                                     </div>
-                                </div>  
-                                <div class="swiper-slide">
-                                    <div class="main__slider-item">
-                                        <div class="main__slider-img">
-                                            <img src="img/slide/slide4.avif" alt="slide2" loading="lazy">
-                                        </div>
-                                        <div class="main__slider-title">Esports World Cup: дарим фрибеты и 30 000$ призовых</div>
-                                        <a href="#" class="main__slider-btn">Участвовать</a>
-                                    </div>
-                                </div>     
-                                <div class="swiper-slide">
-                                    <div class="main__slider-item">
-                                        <div class="main__slider-img">
-                                            <img src="img/slide/slide5.avif" alt="slide2" loading="lazy">
-                                        </div>
-                                        <div class="main__slider-title">Бонус +500% на первые 4 депозита</div>
-                                        <a href="#" class="main__slider-btn">Зарегистрироваться</a>
-                                    </div>                                    
-                                </div>  
-                                <div class="swiper-slide">
-                                    <div class="main__slider-item">
-                                        <div class="main__slider-img">
-                                            <img src="img/slide/slide6.avif" alt="slide2" loading="lazy">
-                                        </div>
-                                        <div class="main__slider-title">Бонус ждет: 500 фриспинов всем новым пользователям</div>
-                                        <a href="#" class="main__slider-btn">Зарегистрироваться</a>
-                                    </div>                                    
-                                </div>                                                  
+                                </div>    
+                                <!-- Первая секция элементы конец -->
                             </div>
-                            <div class="main__slider-arrows">
-                                <div class="swiper-button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
-                                <div class="swiper-button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
+                        </div>
+                    </div>
+                    <!-- Первая секция конец-->
+                    <!-- Слайдеры начало 1x games -->
+                    <div class="sliders">
+                        <div class="container">
+                            <div class="swiper win-games__swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>  
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>                                                                                                                           
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                </div>
+                                <div class="games__head">
+                                    <div class="games__head-logo">
+                                        <img src="icons/1w.svg" alt="1w" loading="lazy">
+                                    </div>
+                                    <h3 class="games__head-title">1Win Games</h3>                        
+                                </div>
+                                <a href="#" class="games__all">
+                                    <p class="games__all-text">Все игры</p>
+                                    <div class="games__all-img">
+                                        <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
+                                    </div>
+                                </a>
+                                <div class="games__slider-arrows">
+                                    <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
+                                    <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Слайдеры конец   1x games-->
+
+                    <!-- Слайдеры начало Все игры -->
+                    <div class="sliders">
+                        <div class="container">
+                            <div class="swiper all-games__swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>  
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>                                                                                                                           
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                </div>
+                                <div class="games__head">
+                                    <div class="games__head-logo">
+                                        <img src="icons/all-games.svg" alt="1w" loading="lazy">
+                                    </div>
+                                    <h3 class="games__head-title">Все игры</h3>                        
+                                </div>
+                                <a href="#" class="games__all">
+                                    <p class="games__all-text">Все игры</p>
+                                    <div class="games__all-img">
+                                        <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
+                                    </div>
+                                </a>
+                                <div class="games__slider-arrows">
+                                    <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
+                                    <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Слайдеры конец все игры-->
+
+                    <!-- Слайдеры начало Лайв казино -->
+                    <div class="sliders">
+                        <div class="container">
+                            <div class="swiper live-casino-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>  
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>                                                                                                                           
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                </div>
+                                <div class="games__head">
+                                    <div class="games__head-logo">
+                                        <img src="icons/live-casino.svg" alt="1w" loading="lazy">
+                                    </div>
+                                    <h3 class="games__head-title">Лайв Казино</h3>                        
+                                </div>
+                                <a href="#" class="games__all">
+                                    <p class="games__all-text">Все игры</p>
+                                    <div class="games__all-img">
+                                        <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
+                                    </div>
+                                </a>
+                                <div class="games__slider-arrows">
+                                    <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
+                                    <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Слайдеры конец Лайв казино-->
+
+                    <!-- Слайдеры начало Популярные -->
+                    <div class="sliders">
+                        <div class="container">
+                            <div class="swiper popular-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>  
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div>                                                                                                                           
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                    <div class="swiper-slide games__slider-item">
+                                        <a href="#" class="games__slider-item">
+                                            <div class="games__slider-img">
+                                                <img src="img/no-image.jpg" alt="slide1" loading="lazy">
+                                            </div>                                
+                                        </a>
+                                    </div> 
+                                </div>
+                                <div class="games__head">
+                                    <div class="games__head-logo">
+                                        <img src="icons/popular.svg" alt="1w" loading="lazy">
+                                    </div>
+                                    <h3 class="games__head-title">Популярные</h3>                        
+                                </div>
+                                <a href="#" class="games__all">
+                                    <p class="games__all-text">Все игры</p>
+                                    <div class="games__all-img">
+                                        <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
+                                    </div>
+                                </a>
+                                <div class="games__slider-arrows">
+                                    <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
+                                    <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Слайдеры конец Популярные-->
+                    <!-- 100% на первый депозит начало -->
+                    <section class="deposit">
+                        <div class="container">
+                            <div class="deposit__wrapper">
+                                <div class="deposit__left">
+                                    <div class="deposit__left-head">
+                                        <h2 class="deposit__left-title">+100% на первый депозит</h2>
+                                        <a href="#" class="deposit__left-img">
+                                            <img src="icons/orange-cyrcle.svg" alt="warning" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="deposit__left-steps">
+                                        <div class="deposit__left-step deposit__step">
+                                            <div class="deposit__step-number">1</div>
+                                            <div class="deposit__step-name">Внесите депозит от 1 000,00 ₽</div>
+                                        </div>
+                                        <span>...</span>
+                                        <div class="deposit__left-step deposit__step">
+                                            <div class="deposit__step-number">2</div>
+                                            <div class="deposit__step-name">Получите бонус до 50 000,00 ₽</div>
+                                        </div>
+                                    </div>                      
+                                </div>
+                                <div class="deposit__center">
+                                    <div class="deposit__surprise">
+                                        <img src="img/present.avif" alt="Подарок">
+                                    </div>
+                                </div>
+                                <div class="deposit__end">
+                                    <button class="deposit__btn">Получить бонус</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 100% на первый депозит Конец -->
+                    <!-- Секция с мнформацией начало -->
+                    <section class="information">
+                        <div class="container">
+                            <div class="information__container">
+                                <div class="information__block">
+                                    <h2 class="information__title">1win: Ведущий мировой бренд для казино-игр и ставок на спорт</h2>
+                                    <p class="information__descr information__descr-gray">1win— международный бренд, создающий уникальный опыт в сфере онлайн-развлечений. Здесь вы найдете лучшие игры казино, спортивные ставки, киберспорт, покер и многое другое. Наши пользователи со всего мира получают первоклассные возможности и лучшие условия для увлекательного развлечения.</p>
+                                    <h3 class="information__list-title information__list-title-gray">Почему выбирают 1win:</h3>
+                                    <ul class="information__list">
+                                        <li class="information__item information__item-gray">Работаем более, чем на 25 языках: 1win преодолевает языковые барьеры, чтобы каждый мог насладиться игрой, будь то казино или ставки на спорт</li>
+                                        <li class="information__item information__item-gray">Инновационная платформа: наша технологичная и стабильная платформа гарантирует удобный игровой процесс на любом устройстве</li>
+                                        <li class="information__item information__item-gray">Игрок на первом месте: мы заботимся о ваших интересах, подбирая развлечения на любой вкус</li>
+                                        <li class="information__item information__item-gray">Высокий RTP у игр казино: наслаждайтесь играми с высоким процентом возврата — это увеличивает шансы на выигрыш</li>
+                                        <li class="information__item information__item-gray">Быстрые выводы средств: выигрыши поступают моментально и безопасно</li>
+                                    </ul>
+                                </div>
+                                <div class="information__container-hide container__hidden">
+                                    <div class="information__block">
+                                        <h2 class="information__title">Онлайн-казино 1win: более 11 000 игр от ведущих провайдеров</h2>
+                                        <p class="information__descr information__descr-gray">В казино <a href="index.html" target="_blank">1win</a> вас ждет непрерывный поток новых игр и развлечений. Мы предлагаем широкий выбор игр, который подойдет каждому. От захватывающих слотов и увлекательных игр с быстрыми ставками до погружающих лайв-игр и динамичных виртуальных видов спорта— здесь каждый найдет что-то свое</p>
+                                        <p class="information__descr information__descr-gray">В нашем казино собраны игры от лучших разработчиков индустрии, таких как <a href="#" target="_blank">Pragmatic Play</a>, <a href="#" target="_blank">Evolution Gaming</a>, <a href="#" target="_blank">Spribe</a>, <a href="#" target="_blank">100HP Gaming</a>, <a href="#" target="_blank">Evoplay</a>, <a href="#" target="_blank">Relax Gaming</a>, <a href="#" target="_blank">Play’n GO</a>, <a href="#" target="_blank">Hacksaw Gaming</a> и многих других авторитетных провайдеров</p>
+                                        <p class="information__descr information__descr-gray">Также у нас есть <a href="#">оригинальные игры от 1win:</a>  эксклюзивные предложения, которые вы не найдете ни на одной другой платформе.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Краш-игры на 1win: острые ощущения и максимальный накал эмоций</h2>
+                                        <p class="information__descr information__descr-gray">Почувствуйте прилив адреналина с краш-играми— это игры с быстрым темпом, в которых важна каждая секунда. Здесь выигрыши растут стремительно, и игроку нужно успеть вывести деньги до того, как игра завершится.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">На нашей платформе представлены лучшие примеры краш-игр:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">
+                                                <a href="#">Aviator</a>
+                                            </li>
+                                            <li class="information__item information__item-gray information__item-el">
+                                                <a href="#">Lucky Jet</a>
+                                            </li>
+                                            <li class="information__item information__item-gray information__item-el">
+                                                <a href="#">Aviatrix</a>
+                                            </li>
+                                            <li class="information__item information__item-gray information__item-el">
+                                                <a href="#">Tropicana</a>
+                                            </li>
+                                            <li class="information__item information__item-gray information__item-el">
+                                                <a href="#">JetX</a>
+                                            </li>
+                                            <li class="information__item information__item-gray information__item-el">
+                                                <a href="#">RocketX</a>
+                                            </li>
+                                            <li class="information__item information__item-gray information__item-el">
+                                                <a href="#">Rocket Queen</a>
+                                            </li>
+                                        </ul>
+                                        <p class="information__descr information__descr-gray">И это еще не всё: наш выбор краш-игр постоянно пополняется, так что вы всегда сможете найти что-то новое и захватывающее.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Лайв игры на 1win: азарт в режиме реального времени</h2>
+                                        <p class="information__descr information__descr-gray">Погрузитесь в настоящую атмосферу реального казино с нашими игровыми шоу. Взаимодействуйте с профессиональными дилерами и другими игроками в режиме реального времени не выходя из дома.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">На нашей платформе вы найдете лучшие лайв-шоу игры в индустрии:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">Блэкджек: обыграйте дилера, не превышая 21 очко</li>
+                                            <li class="information__item information__item-gray information__item-el">Рулетка: делайте ставки и следите за вращением колеса</li>
+                                            <li class="information__item information__item-gray information__item-el">Баккара: делайте ставки на игрока, банкира или ничью в этой изысканной игре</li>
+                                            <li class="information__item information__item-gray information__item-el">Crazy Time: знаменитое интерактивное игровое шоу с бонусными раундами</li>
+                                        </ul>
+                                        <p class="information__descr information__descr-gray">И многое другое: наше <a href="#">Live-казино</a>  предлагает разнообразие игр, которые поддержат ваше настроение и азарт.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Слоты на 1win: от популярного до эксклюзивного — выбирайте и побеждайте</h2>
+                                        <p class="information__descr information__descr-gray">Погрузитесь в мир <a href="#">слотов</a> с нашей огромной коллекцией, где каждый найдет что-то свое. Вас ждут увлекательные темы, уникальные игровые функции и возможность сорвать крупные джекпоты.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Популярные слоты, которые стоит попробовать:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">Fortune Tiger</li>
+                                            <li class="information__item information__item-gray information__item-el">Sugar Rush</li>
+                                            <li class="information__item information__item-gray information__item-el">Zeus vs Hades</li>
+                                            <li class="information__item information__item-gray information__item-el">Sweet Bonanza</li>
+                                            <li class="information__item information__item-gray information__item-el">Big Bass - Secrets of Golden Lake</li>
+                                            <li class="information__item information__item-gray information__item-el">The Dog House Megaways</li>
+                                        </ul>
+                                        <p class="information__descr information__descr-gray">И это далеко не всё — с выбором из более чем <a href="#">11 000 слотов</a> вас всегда ждет новое захватывающее приключение и шанс на крупный выигрыш.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Ставки на спорт с лучшими коэффициентами на 1win</h2>
+                                        <p class="information__descr information__descr-gray">Погрузитесь в мир <a href="#">Ощутите азарт спортивных ставок вместе с <a href="#">букмекерской конторой 1win</a>, где вас ждут лучшие коэффициенты на любимые виды спорта и команды. Тысячи ставок ежедневно, широкий выбор спортивных событий и лиг — всё это делает 1win идеальным выбором для каждого спортивного фаната.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Ставки на популярные виды спорта и главные спортивные события:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">Футбол: Делайте ставки на топовые лиги, такие как Английская Премьер-лига, Ла Лига, Серия А, Бундеслига, Лига 1, а также региональные турниры — Индийская суперлига, Бразильская Серия А, Аргентинская Примера, Российская Премьер-лига и Лига MX. Также доступны все международные турниры, включая Чемпионат мира по футболу FIFA, Чемпионат Европы UEFA, Кубок Америки, Кубок Азии AFC, Кубок Африканских наций CAF, Золотой кубок КОНКАКАФ, Лигу Европы и Лигу чемпионов УЕФА.</li>
+                                            <li class="information__item information__item-gray information__item-el">Крикет: Ставьте на главные турниры по крикету Тест, ODI и лиг T20. Ставьте на такие турниры, как Индийская Премьер-лига (IPL), Big Bash League, Caribbean Premier League и международные серии с участием команд Индии, Англии, Австралии и Пакистана.</li>
+                                            <li class="information__item information__item-gray information__item-el">Теннис: Делайте ставки на турниры Большого шлема — Открытый чемпионат Австралии, Ролан Гаррос, Уимблдон и US Open, а также на турниры ATP и WTA, проходящие в течение всего года.</li>
+                                            <li class="information__item information__item-gray information__item-el">Баскетбол: Ставьте на игры НБА, а также на международные соревнования, такие как Евролига, Лига чемпионов по баскетболу, Лига ACB (Испания), Бундеслига по баскетболу (Германия) и Национальная баскетбольная лига Аргентины. Ставки также доступны на события, такие как Кубок мира ФИБА и Олимпийские игры.</li>
+                                            <li class="information__item information__item-gray information__item-el">Хоккей: Делайте ставки на ведущие лиги, такие как Национальная хоккейная лига (НХЛ), Континентальная хоккейная лига (КХЛ) в России, а также на международные турниры, включая Чемпионат мира ИИХФ и Кубок мира по хоккею.</li>
+                                            <li class="information__item information__item-gray information__item-el">Бокс и ММА: Ставьте на громкие поединки с участием боксеров и бойцов из Латинской Америки, Африки, Европы и Азии. Доступны ставки на бои в таких организациях, как Matchroom Boxing, Top Rank, UFC и Bellator.</li>
+                                            <li class="information__item information__item-gray information__item-el">Киберспорт: Погрузитесь в мир ставок на <a href="#">киберспорт</a> с популярными играми, такими как Dota 2, Counter-Strike: Global Offensive (CS:GO), League of Legends (LoL), Fifa, FC25, Free Fire и Valorant.</li>
+                                            <li class="information__item information__item-gray information__item-el">Мотоспорт: Делайте ставки на международные гоночные события, такие как Формула-1, MotoGP, Чемпионат мира по ралли (WRC) и NASCAR Mexico Series.</li>
+                                            <li class="information__item information__item-gray information__item-el">И это ещё не всё: на 1win доступны ставки на волейбол, гандбол, настольный теннис, велоспорт, бадминтон, снукер, хоккей на траве, легкую атлетику и множество других видов спорта.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Live-ставки и прямые трансляции на 1win: будьте в центре событий</h2>
+                                        <p class="information__descr information__descr-gray">Используйте преимущества Live-ставок и прямых трансляций на 1win для максимального вовлечения.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Лайв-ставки:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">Динамические коэффициенты обновляются в реальном времени в зависимости от текущего хода игры.</li>
+                                            <li class="information__item information__item-gray information__item-el">Разнообразие рынков: делайте ставки на такие исходы, как следующий гол, следующая подача, победитель матча и многие другие.</li>
+                                            <li class="information__item information__item-gray information__item-el">Мгновенное взаимодействие: идеально для тех, кто хочет быстро реагировать на происходящее на поле.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Прямые трансляции спортивных событий:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">Смотрите и ставьте на отдельные события прямо на нашей платформе.</li>
+                                            <li class="information__item information__item-gray information__item-el">Обновления в реальном времени: оставайтесь в курсе с помощью живой статистики и актуальных данных.</li>
+                                            <li class="information__item information__item-gray information__item-el">Доступ отовсюду: смотрите трансляции с настольного компьютера или мобильного устройства..</li>
+                                        </ul>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Бонусы и бесплатные деньги: повысьте свои выигрыши с 1win</h2>
+                                        <p class="information__descr information__descr-gray">Мы ценим доверие наших игроков и щедро вознаграждаем их. Наши  <a href="#">бонусные программы</a> созданы для того, чтобы улучшить игровой опыт и предоставить больше возможностей для побед.</p>
+                                        <p class="information__descr information__descr-gray">Вы найдете ежедневные ваучеры, еженедельный кэшбэк до 30% на казино, лотереи , фриспины и розыгрыши с призами Lucky Drive.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Lucky Drive: выигрывайте суперкар и десятки призов каждый месяц</h2>
+                                        <p class="information__descr information__descr-gray">Lucky Drive — это уникальный и беспрецедентный ежемесячный розыгрыш от 1win, в котором дарят роскошные автомобили и более 50 призов. Акция доступна всем зарегистрированным игрокам. Каждый полученный билет увеличивает ваши шансы на победу. Чем больше у вас билетов, тем выше вероятность выиграть приз</p>
+                                        <p class="information__descr information__descr-gray">Не упустите шанс: наши бонусные программы постоянно обновляются, так что заходите регулярно, чтобы узнавать о новых акциях и предложениях.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Быстрые депозиты и легкие выводы: удобные способы оплаты</h2>
+                                        <p class="information__descr information__descr-gray">В 1win мы понимаем, что быстрые депозиты и легкие выводы — это важная часть отличного пользовательского опыта. Поэтому мы постоянно расширяем список платежных методов, чтобы предложить надежные и удобные варианты, соответствующие вашим предпочтениям.</p>
+                                        <p class="information__descr information__descr-gray">Мы поддерживаем множество проверенных международных способов оплаты и платежных систем, обеспечивая быструю и безопасную обработку транзакций.</p>
+                                        <p class="information__descr information__descr-gray">Среди доступных вариантов оплаты: Visa, Mastercard, PayPal, Skrill, AstroPay, Perfect Money и многие другие. Мы регулярно добавляем новые платежные методы, чтобы удовлетворить потребности пользователей по всему миру и предоставить еще больше вариантов.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Криптовалютная свобода: играйте и оплачивайте в цифровых активах</h2>
+                                        <p class="information__descr information__descr-gray">Идем в ногу с будущим цифровых транзакций — 1win поддерживает криптовалютные платежи, обеспечивая вам гибкость и анонимность в проведении операций.</p>
+                                        <p class="information__descr information__descr-gray">Как и положено крупнейшему крипто-казино, мы поддерживаем широкий выбор популярных цифровых активов. На 1win вы можете пополнять счет и выводить средства с помощью Tether (USDT), Bitcoin (BTC), Ethereum (ETH), Tron (TRX), Ripple (XRP), Dash (DASH), Dogecoin (DOGE), Binance Coin (BNB), Zcash (ZEC), Litecoin (LTC), Monero (XMR) и других криптовалют.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Ответственная игра и поддержка клиентов</h2>
+                                        <p class="information__descr information__descr-gray">1win ставит на первое место ответственное отношение к игре и удовлетворение потребностей наших игроков.</p>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Инструменты для ответственной игры:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">Устанавливайте лимиты на депозиты, ставки или при необходимости используйте опцию самоисключения.</li>
+                                            <li class="information__item information__item-gray information__item-el">Получите доступ к образовательным материалам о принципах ответственной игры.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="information__block">
+                                        <h2 class="information__title">Круглосуточная поддержка клиентов:</h2>
+                                        <ul class="information__list information__list-els">
+                                            <li class="information__item information__item-gray information__item-el">Наша команда всегда готова помочь вам в любое время через онлайн-чат, электронную почту или по телефону.</li>
+                                        </ul>
+                                        <p class="information__descr information__descr-gray">Регистрируйтесь на 1win сегодня, чтобы открыть мир возможностей для игр и ставок, созданных специально для вас.</p>
+                                    </div>
+                                </div>
+                                <button class="information__btn">
+                                    <p class="information__btn-text">Читать далее</p>
+                                    <div class="information__btn-img">
+                                        <img src="icons/arow-top.svg" alt="Стрелка" loading="lazy">
+                                    </div>
+                                </button>
                             </div>
                             
                         </div>
-                    </div>
-                    <!-- первая секция слайдер конец-->
-                    <!-- Первая секция элементы начало -->
-                    <div class="main__elements">
-                        <div class="main__freemoney">
-                            <div class="main__freemoney-wrapper">
-                                <div class="main__freemoney-left">
-                                    <a href="#" class="main__freemoney-link">Free money</a>
-                                    <h2 class="main__freemoney-title">Разыгрываем Brabus и другие призы</h2>
+                    </section>
+                    <!-- Секция с мнформацией конец -->
+                    
+                </main>
+                <footer class="footer">
+                    <!-- Смена языка начало -->
+                    <div class="language footer__language">
+                        <div class="container">
+                            <div class="language__wrapper">
+                                <div class="language__logo">
+                                    <img src="icons/logo.svg" alt="Логотип сайта" loading="lazy">
                                 </div>
-                                <div class="main__freemoney-img">
-                                    <img src="img/freemoney_main.avif" alt="free money" loading="lazy">
-                                </div>
-                            </div>                           
-                        </div>
-                        <div class="main__freemoney main__bonus">
-                            <div class="main__freemoney-wrapper main__bonus-wrapper">
-                                <div class="main__freemoney-left main__bonus-left">
-                                    <a href="#" class="main__freemoney-link main__bonus-link">Бонусы</a>
-                                    <h2 class="main__freemoney-title main__bonus-title"> <span></span> 1 доступный бонус</h2>
-                                </div>
-                                <div class="main__freemoney-img main__bonus-img">
-                                    <img src="img/main_bonus_768.avif" alt="free money" loading="lazy">
-                                </div>
-                            </div>                           
-                        </div>
-                    </div>    
-                    <!-- Первая секция элементы конец -->
-                </div>
-            </div>
-        </div>
-        <!-- Первая секция конец-->
-        <!-- Слайдеры начало 1x games -->
-         <div class="sliders">
-            <div class="container">
-                <div class="swiper win-games__swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>  
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>                                                                                                                           
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                    </div>
-                    <div class="games__head">
-                        <div class="games__head-logo">
-                            <img src="icons/1w.svg" alt="1w" loading="lazy">
-                        </div>
-                        <h3 class="games__head-title">1Win Games</h3>                        
-                    </div>
-                    <a href="#" class="games__all">
-                        <p class="games__all-text">Все игры</p>
-                        <div class="games__all-img">
-                            <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
-                        </div>
-                    </a>
-                    <div class="games__slider-arrows">
-                        <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
-                        <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
-                    </div>
-                    
-                </div>
-            </div>
-         </div>
-         <!-- Слайдеры конец   1x games-->
-
-          <!-- Слайдеры начало Все игры -->
-         <div class="sliders">
-            <div class="container">
-                <div class="swiper all-games__swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>  
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>                                                                                                                           
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                    </div>
-                    <div class="games__head">
-                        <div class="games__head-logo">
-                            <img src="icons/all-games.svg" alt="1w" loading="lazy">
-                        </div>
-                        <h3 class="games__head-title">Все игры</h3>                        
-                    </div>
-                    <a href="#" class="games__all">
-                        <p class="games__all-text">Все игры</p>
-                        <div class="games__all-img">
-                            <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
-                        </div>
-                    </a>
-                    <div class="games__slider-arrows">
-                        <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
-                        <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
-                    </div>
-                    
-                </div>
-            </div>
-         </div>
-         <!-- Слайдеры конец все игры-->
-
-         <!-- Слайдеры начало Лайв казино -->
-         <div class="sliders">
-            <div class="container">
-                <div class="swiper live-casino-swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>  
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>                                                                                                                           
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                    </div>
-                    <div class="games__head">
-                        <div class="games__head-logo">
-                            <img src="icons/live-casino.svg" alt="1w" loading="lazy">
-                        </div>
-                        <h3 class="games__head-title">Лайв Казино</h3>                        
-                    </div>
-                    <a href="#" class="games__all">
-                        <p class="games__all-text">Все игры</p>
-                        <div class="games__all-img">
-                            <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
-                        </div>
-                    </a>
-                    <div class="games__slider-arrows">
-                        <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
-                        <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
-                    </div>
-                    
-                </div>
-            </div>
-         </div>
-         <!-- Слайдеры конец Лайв казино-->
-
-         <!-- Слайдеры начало Популярные -->
-         <div class="sliders">
-            <div class="container">
-                <div class="swiper popular-swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>  
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div>                                                                                                                           
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                        <div class="swiper-slide games__slider-item">
-                            <a href="#" class="games__slider-item">
-                                <div class="games__slider-img">
-                                    <img src="img/no-image.jpg" alt="slide1" loading="lazy">
-                                </div>                                
-                            </a>
-                        </div> 
-                    </div>
-                    <div class="games__head">
-                        <div class="games__head-logo">
-                            <img src="icons/popular.svg" alt="1w" loading="lazy">
-                        </div>
-                        <h3 class="games__head-title">Популярные</h3>                        
-                    </div>
-                    <a href="#" class="games__all">
-                        <p class="games__all-text">Все игры</p>
-                        <div class="games__all-img">
-                            <img src="icons/arow-next.svg" alt="Стрелка вперед" loading="lazy">
-                        </div>
-                    </a>
-                    <div class="games__slider-arrows">
-                        <div class="swiper-button-prev games__button-prev"><img src="icons/arow-back.svg" alt="Стрелка назад" loading="lazy"></div>
-                        <div class="swiper-button-next games__button-next"><img src="icons/arow-next.svg" alt="Стрелка Вперед"></div>
-                    </div>
-                    
-                </div>
-            </div>
-         </div>
-         <!-- Слайдеры конец Популярные-->
-        <!-- 100% на первый депозит начало -->
-        <section class="deposit">
-            <div class="container">
-                <div class="deposit__wrapper">
-                    <div class="deposit__left">
-                        <div class="deposit__left-head">
-                            <h2 class="deposit__left-title">+100% на первый депозит</h2>
-                            <a href="#" class="deposit__left-img">
-                                <img src="icons/orange-cyrcle.svg" alt="warning" loading="lazy">
-                            </a>
-                        </div>
-                        <div class="deposit__left-steps">
-                            <div class="deposit__left-step deposit__step">
-                                <div class="deposit__step-number">1</div>
-                                <div class="deposit__step-name">Внесите депозит от 1 000,00 ₽</div>
-                            </div>
-                            <span>...</span>
-                            <div class="deposit__left-step deposit__step">
-                                <div class="deposit__step-number">2</div>
-                                <div class="deposit__step-name">Получите бонус до 50 000,00 ₽</div>
-                            </div>
-                        </div>                      
-                    </div>
-                    <div class="deposit__center">
-                        <div class="deposit__surprise">
-                            <img src="img/present.avif" alt="Подарок">
-                        </div>
-                    </div>
-                    <div class="deposit__end">
-                        <button class="deposit__btn">Получить бонус</button>
-                    </div>
-                </div>
-            </div>
-         </section>
-         <!-- 100% на первый депозит Конец -->
-         <!-- Секция с мнформацией начало -->
-          <section class="information">
-                <div class="container">
-                    <div class="information__container">
-                        <div class="information__block">
-                            <h2 class="information__title">1win: Ведущий мировой бренд для казино-игр и ставок на спорт</h2>
-                            <p class="information__descr information__descr-gray">1win— международный бренд, создающий уникальный опыт в сфере онлайн-развлечений. Здесь вы найдете лучшие игры казино, спортивные ставки, киберспорт, покер и многое другое. Наши пользователи со всего мира получают первоклассные возможности и лучшие условия для увлекательного развлечения.</p>
-                            <h3 class="information__list-title information__list-title-gray">Почему выбирают 1win:</h3>
-                            <ul class="information__list">
-                                <li class="information__item information__item-gray">Работаем более, чем на 25 языках: 1win преодолевает языковые барьеры, чтобы каждый мог насладиться игрой, будь то казино или ставки на спорт</li>
-                                <li class="information__item information__item-gray">Инновационная платформа: наша технологичная и стабильная платформа гарантирует удобный игровой процесс на любом устройстве</li>
-                                <li class="information__item information__item-gray">Игрок на первом месте: мы заботимся о ваших интересах, подбирая развлечения на любой вкус</li>
-                                <li class="information__item information__item-gray">Высокий RTP у игр казино: наслаждайтесь играми с высоким процентом возврата — это увеличивает шансы на выигрыш</li>
-                                <li class="information__item information__item-gray">Быстрые выводы средств: выигрыши поступают моментально и безопасно</li>
-                            </ul>
-                        </div>
-                        <div class="information__container-hide container__hidden">
-                            <div class="information__block">
-                                <h2 class="information__title">Онлайн-казино 1win: более 11 000 игр от ведущих провайдеров</h2>
-                                <p class="information__descr information__descr-gray">В казино <a href="index.html" target="_blank">1win</a> вас ждет непрерывный поток новых игр и развлечений. Мы предлагаем широкий выбор игр, который подойдет каждому. От захватывающих слотов и увлекательных игр с быстрыми ставками до погружающих лайв-игр и динамичных виртуальных видов спорта— здесь каждый найдет что-то свое</p>
-                                <p class="information__descr information__descr-gray">В нашем казино собраны игры от лучших разработчиков индустрии, таких как <a href="#" target="_blank">Pragmatic Play</a>, <a href="#" target="_blank">Evolution Gaming</a>, <a href="#" target="_blank">Spribe</a>, <a href="#" target="_blank">100HP Gaming</a>, <a href="#" target="_blank">Evoplay</a>, <a href="#" target="_blank">Relax Gaming</a>, <a href="#" target="_blank">Play’n GO</a>, <a href="#" target="_blank">Hacksaw Gaming</a> и многих других авторитетных провайдеров</p>
-                                <p class="information__descr information__descr-gray">Также у нас есть <a href="#">оригинальные игры от 1win:</a>  эксклюзивные предложения, которые вы не найдете ни на одной другой платформе.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Краш-игры на 1win: острые ощущения и максимальный накал эмоций</h2>
-                                <p class="information__descr information__descr-gray">Почувствуйте прилив адреналина с краш-играми— это игры с быстрым темпом, в которых важна каждая секунда. Здесь выигрыши растут стремительно, и игроку нужно успеть вывести деньги до того, как игра завершится.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">На нашей платформе представлены лучшие примеры краш-игр:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">
-                                        <a href="#">Aviator</a>
-                                    </li>
-                                    <li class="information__item information__item-gray information__item-el">
-                                        <a href="#">Lucky Jet</a>
-                                    </li>
-                                    <li class="information__item information__item-gray information__item-el">
-                                        <a href="#">Aviatrix</a>
-                                    </li>
-                                    <li class="information__item information__item-gray information__item-el">
-                                        <a href="#">Tropicana</a>
-                                    </li>
-                                    <li class="information__item information__item-gray information__item-el">
-                                        <a href="#">JetX</a>
-                                    </li>
-                                    <li class="information__item information__item-gray information__item-el">
-                                        <a href="#">RocketX</a>
-                                    </li>
-                                    <li class="information__item information__item-gray information__item-el">
-                                        <a href="#">Rocket Queen</a>
-                                    </li>
-                                </ul>
-                                <p class="information__descr information__descr-gray">И это еще не всё: наш выбор краш-игр постоянно пополняется, так что вы всегда сможете найти что-то новое и захватывающее.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Лайв игры на 1win: азарт в режиме реального времени</h2>
-                                <p class="information__descr information__descr-gray">Погрузитесь в настоящую атмосферу реального казино с нашими игровыми шоу. Взаимодействуйте с профессиональными дилерами и другими игроками в режиме реального времени не выходя из дома.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">На нашей платформе вы найдете лучшие лайв-шоу игры в индустрии:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">Блэкджек: обыграйте дилера, не превышая 21 очко</li>
-                                    <li class="information__item information__item-gray information__item-el">Рулетка: делайте ставки и следите за вращением колеса</li>
-                                    <li class="information__item information__item-gray information__item-el">Баккара: делайте ставки на игрока, банкира или ничью в этой изысканной игре</li>
-                                    <li class="information__item information__item-gray information__item-el">Crazy Time: знаменитое интерактивное игровое шоу с бонусными раундами</li>
-                                </ul>
-                                <p class="information__descr information__descr-gray">И многое другое: наше <a href="#">Live-казино</a>  предлагает разнообразие игр, которые поддержат ваше настроение и азарт.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Слоты на 1win: от популярного до эксклюзивного — выбирайте и побеждайте</h2>
-                                <p class="information__descr information__descr-gray">Погрузитесь в мир <a href="#">слотов</a> с нашей огромной коллекцией, где каждый найдет что-то свое. Вас ждут увлекательные темы, уникальные игровые функции и возможность сорвать крупные джекпоты.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Популярные слоты, которые стоит попробовать:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">Fortune Tiger</li>
-                                    <li class="information__item information__item-gray information__item-el">Sugar Rush</li>
-                                    <li class="information__item information__item-gray information__item-el">Zeus vs Hades</li>
-                                    <li class="information__item information__item-gray information__item-el">Sweet Bonanza</li>
-                                    <li class="information__item information__item-gray information__item-el">Big Bass - Secrets of Golden Lake</li>
-                                    <li class="information__item information__item-gray information__item-el">The Dog House Megaways</li>
-                                </ul>
-                                <p class="information__descr information__descr-gray">И это далеко не всё — с выбором из более чем <a href="#">11 000 слотов</a> вас всегда ждет новое захватывающее приключение и шанс на крупный выигрыш.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Ставки на спорт с лучшими коэффициентами на 1win</h2>
-                                <p class="information__descr information__descr-gray">Погрузитесь в мир <a href="#">Ощутите азарт спортивных ставок вместе с <a href="#">букмекерской конторой 1win</a>, где вас ждут лучшие коэффициенты на любимые виды спорта и команды. Тысячи ставок ежедневно, широкий выбор спортивных событий и лиг — всё это делает 1win идеальным выбором для каждого спортивного фаната.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Ставки на популярные виды спорта и главные спортивные события:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">Футбол: Делайте ставки на топовые лиги, такие как Английская Премьер-лига, Ла Лига, Серия А, Бундеслига, Лига 1, а также региональные турниры — Индийская суперлига, Бразильская Серия А, Аргентинская Примера, Российская Премьер-лига и Лига MX. Также доступны все международные турниры, включая Чемпионат мира по футболу FIFA, Чемпионат Европы UEFA, Кубок Америки, Кубок Азии AFC, Кубок Африканских наций CAF, Золотой кубок КОНКАКАФ, Лигу Европы и Лигу чемпионов УЕФА.</li>
-                                    <li class="information__item information__item-gray information__item-el">Крикет: Ставьте на главные турниры по крикету Тест, ODI и лиг T20. Ставьте на такие турниры, как Индийская Премьер-лига (IPL), Big Bash League, Caribbean Premier League и международные серии с участием команд Индии, Англии, Австралии и Пакистана.</li>
-                                    <li class="information__item information__item-gray information__item-el">Теннис: Делайте ставки на турниры Большого шлема — Открытый чемпионат Австралии, Ролан Гаррос, Уимблдон и US Open, а также на турниры ATP и WTA, проходящие в течение всего года.</li>
-                                    <li class="information__item information__item-gray information__item-el">Баскетбол: Ставьте на игры НБА, а также на международные соревнования, такие как Евролига, Лига чемпионов по баскетболу, Лига ACB (Испания), Бундеслига по баскетболу (Германия) и Национальная баскетбольная лига Аргентины. Ставки также доступны на события, такие как Кубок мира ФИБА и Олимпийские игры.</li>
-                                    <li class="information__item information__item-gray information__item-el">Хоккей: Делайте ставки на ведущие лиги, такие как Национальная хоккейная лига (НХЛ), Континентальная хоккейная лига (КХЛ) в России, а также на международные турниры, включая Чемпионат мира ИИХФ и Кубок мира по хоккею.</li>
-                                    <li class="information__item information__item-gray information__item-el">Бокс и ММА: Ставьте на громкие поединки с участием боксеров и бойцов из Латинской Америки, Африки, Европы и Азии. Доступны ставки на бои в таких организациях, как Matchroom Boxing, Top Rank, UFC и Bellator.</li>
-                                    <li class="information__item information__item-gray information__item-el">Киберспорт: Погрузитесь в мир ставок на <a href="#">киберспорт</a> с популярными играми, такими как Dota 2, Counter-Strike: Global Offensive (CS:GO), League of Legends (LoL), Fifa, FC25, Free Fire и Valorant.</li>
-                                    <li class="information__item information__item-gray information__item-el">Мотоспорт: Делайте ставки на международные гоночные события, такие как Формула-1, MotoGP, Чемпионат мира по ралли (WRC) и NASCAR Mexico Series.</li>
-                                    <li class="information__item information__item-gray information__item-el">И это ещё не всё: на 1win доступны ставки на волейбол, гандбол, настольный теннис, велоспорт, бадминтон, снукер, хоккей на траве, легкую атлетику и множество других видов спорта.</li>
-                                </ul>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Live-ставки и прямые трансляции на 1win: будьте в центре событий</h2>
-                                <p class="information__descr information__descr-gray">Используйте преимущества Live-ставок и прямых трансляций на 1win для максимального вовлечения.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Лайв-ставки:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">Динамические коэффициенты обновляются в реальном времени в зависимости от текущего хода игры.</li>
-                                    <li class="information__item information__item-gray information__item-el">Разнообразие рынков: делайте ставки на такие исходы, как следующий гол, следующая подача, победитель матча и многие другие.</li>
-                                    <li class="information__item information__item-gray information__item-el">Мгновенное взаимодействие: идеально для тех, кто хочет быстро реагировать на происходящее на поле.</li>
-                                </ul>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Прямые трансляции спортивных событий:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">Смотрите и ставьте на отдельные события прямо на нашей платформе.</li>
-                                    <li class="information__item information__item-gray information__item-el">Обновления в реальном времени: оставайтесь в курсе с помощью живой статистики и актуальных данных.</li>
-                                    <li class="information__item information__item-gray information__item-el">Доступ отовсюду: смотрите трансляции с настольного компьютера или мобильного устройства..</li>
-                                </ul>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Бонусы и бесплатные деньги: повысьте свои выигрыши с 1win</h2>
-                                <p class="information__descr information__descr-gray">Мы ценим доверие наших игроков и щедро вознаграждаем их. Наши  <a href="#">бонусные программы</a> созданы для того, чтобы улучшить игровой опыт и предоставить больше возможностей для побед.</p>
-                                <p class="information__descr information__descr-gray">Вы найдете ежедневные ваучеры, еженедельный кэшбэк до 30% на казино, лотереи , фриспины и розыгрыши с призами Lucky Drive.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Lucky Drive: выигрывайте суперкар и десятки призов каждый месяц</h2>
-                                <p class="information__descr information__descr-gray">Lucky Drive — это уникальный и беспрецедентный ежемесячный розыгрыш от 1win, в котором дарят роскошные автомобили и более 50 призов. Акция доступна всем зарегистрированным игрокам. Каждый полученный билет увеличивает ваши шансы на победу. Чем больше у вас билетов, тем выше вероятность выиграть приз</p>
-                                <p class="information__descr information__descr-gray">Не упустите шанс: наши бонусные программы постоянно обновляются, так что заходите регулярно, чтобы узнавать о новых акциях и предложениях.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Быстрые депозиты и легкие выводы: удобные способы оплаты</h2>
-                                <p class="information__descr information__descr-gray">В 1win мы понимаем, что быстрые депозиты и легкие выводы — это важная часть отличного пользовательского опыта. Поэтому мы постоянно расширяем список платежных методов, чтобы предложить надежные и удобные варианты, соответствующие вашим предпочтениям.</p>
-                                <p class="information__descr information__descr-gray">Мы поддерживаем множество проверенных международных способов оплаты и платежных систем, обеспечивая быструю и безопасную обработку транзакций.</p>
-                                <p class="information__descr information__descr-gray">Среди доступных вариантов оплаты: Visa, Mastercard, PayPal, Skrill, AstroPay, Perfect Money и многие другие. Мы регулярно добавляем новые платежные методы, чтобы удовлетворить потребности пользователей по всему миру и предоставить еще больше вариантов.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Криптовалютная свобода: играйте и оплачивайте в цифровых активах</h2>
-                                <p class="information__descr information__descr-gray">Идем в ногу с будущим цифровых транзакций — 1win поддерживает криптовалютные платежи, обеспечивая вам гибкость и анонимность в проведении операций.</p>
-                                <p class="information__descr information__descr-gray">Как и положено крупнейшему крипто-казино, мы поддерживаем широкий выбор популярных цифровых активов. На 1win вы можете пополнять счет и выводить средства с помощью Tether (USDT), Bitcoin (BTC), Ethereum (ETH), Tron (TRX), Ripple (XRP), Dash (DASH), Dogecoin (DOGE), Binance Coin (BNB), Zcash (ZEC), Litecoin (LTC), Monero (XMR) и других криптовалют.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Ответственная игра и поддержка клиентов</h2>
-                                <p class="information__descr information__descr-gray">1win ставит на первое место ответственное отношение к игре и удовлетворение потребностей наших игроков.</p>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Инструменты для ответственной игры:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">Устанавливайте лимиты на депозиты, ставки или при необходимости используйте опцию самоисключения.</li>
-                                    <li class="information__item information__item-gray information__item-el">Получите доступ к образовательным материалам о принципах ответственной игры.</li>
-                                </ul>
-                            </div>
-                            <div class="information__block">
-                                <h2 class="information__title">Круглосуточная поддержка клиентов:</h2>
-                                <ul class="information__list information__list-els">
-                                    <li class="information__item information__item-gray information__item-el">Наша команда всегда готова помочь вам в любое время через онлайн-чат, электронную почту или по телефону.</li>
-                                </ul>
-                                <p class="information__descr information__descr-gray">Регистрируйтесь на 1win сегодня, чтобы открыть мир возможностей для игр и ставок, созданных специально для вас.</p>
-                            </div>
-                        </div>
-                        <button class="information__btn">
-                            <p class="information__btn-text">Читать далее</p>
-                            <div class="information__btn-img">
-                                <img src="icons/arow-top.svg" alt="Стрелка" loading="lazy">
-                            </div>
-                        </button>
-                    </div>
-                    
-                </div>
-          </section>
-         <!-- Секция с мнформацией конец -->
-        
-    </main>
-    <footer class="footer">
-        <!-- Смена языка начало -->
-            <div class="language footer__language">
-                <div class="container">
-                    <div class="language__wrapper">
-                        <div class="language__logo">
-                            <img src="icons/logo.svg" alt="Логотип сайта" loading="lazy">
-                        </div>
-                        <div class="language__line"></div>
-                        <button class="language__change">
-                            <div class="language__change-flag">
-                                <img src="icons/ru-RU.svg" alt="Russian" loading="lazy">
-                            </div>
-                            <div class="language__change-text">RU</div>
-                            <div class="language__change-chewron">
-                                <img src="icons/arow-top.svg" alt="Стрелка">
-                            </div>
-                        </button>
-                        <a href="#main" class="language__syte-top">
-                            <img src="icons/arow-up.svg" alt="Стрелка вверх" loading="lazy">
-                        </a>
-                    </div>
-                </div>
-            </div>
-         <!-- Смена языка конец -->
-        <!-- Поддержка начало -->  
-        <div class="support footer__support">
-            <div class="container">
-                <div class="support__wrapper">
-                    <div class="support__left">
-                        <div class="support__item">
-                            <div class="support__item-head">
-                                <h2 class="support__item-title">Поддержка <span>24/7</span></h2>
-                            </div>
-                            <div class="support__item-descr">Свяжитесь с нами, если у вас остались вопросы</div>
-                            <button class="support__item-btn">Обратиться в поддержку</button>
-                            <div class="support__item-woman">
-                                <img src="img/fg-5.avif" alt="woman">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="support__center">
-                        <div class="support__item-center support__item">
-                            <h2 class="support__item-center--title">Коммерческие предложения</h2>
-                            <a href="#" class="support__item-center--email">business@1win.social</a>
-                        </div>
-                        <div class="support__item-center support__item">
-                            <h2 class="support__item-center--title">Партнерская программа</h2>
-                            <a href="#" class="support__item-center--email">partners@1w.run</a>
-                        </div>
-                    </div>
-                    <div class="support__right">
-                        <div class="support__item support__item-right">
-                            <div class="support__item-head support__item-right--head">
-                                <h2 class="support__item-right--title">Блог создателя 1win</h2>
-                                <p class="support__item-right--descr">О компании, о бизнесе и не только</p>
-                            </div>
-                            <div class="support__item-right--links">
-                                <a href="#" class="support__item-right--link">
-                                    <img src="icons/telegram.svg" alt="telegram">
-                                </a>
-                                <a href="#" class="support__item-right--link">
-                                    <img src="icons/X.svg" alt="X">
+                                <div class="language__line"></div>
+                                <button class="language__change">
+                                    <div class="language__change-flag">
+                                        <img src="icons/ru-RU.svg" alt="Russian" loading="lazy">
+                                    </div>
+                                    <div class="language__change-text">RU</div>
+                                    <div class="language__change-chewron">
+                                        <img src="icons/arow-top.svg" alt="Стрелка">
+                                    </div>
+                                </button>
+                                <a href="#main" class="language__syte-top">
+                                    <img src="icons/arow-up.svg" alt="Стрелка вверх" loading="lazy">
                                 </a>
                             </div>
-                            <div class="support__item-right--img">
-                                <img src="img/owner.avif" alt="owner" loading="lazy">
+                        </div>
+                    </div>
+                <!-- Смена языка конец -->
+                    <!-- Поддержка начало -->  
+                    <div class="support footer__support">
+                        <div class="container">
+                            <div class="support__wrapper">
+                                <div class="support__left">
+                                    <div class="support__item">
+                                        <div class="support__item-head">
+                                            <h2 class="support__item-title">Поддержка <span>24/7</span></h2>
+                                        </div>
+                                        <div class="support__item-descr">Свяжитесь с нами, если у вас остались вопросы</div>
+                                        <button class="support__item-btn">Обратиться в поддержку</button>
+                                        <div class="support__item-woman">
+                                            <img src="img/fg-5.avif" alt="woman">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="support__center">
+                                    <div class="support__item-center support__item">
+                                        <h2 class="support__item-center--title">Коммерческие предложения</h2>
+                                        <a href="#" class="support__item-center--email">business@1win.social</a>
+                                    </div>
+                                    <div class="support__item-center support__item">
+                                        <h2 class="support__item-center--title">Партнерская программа</h2>
+                                        <a href="#" class="support__item-center--email">partners@1w.run</a>
+                                    </div>
+                                </div>
+                                <div class="support__right">
+                                    <div class="support__item support__item-right">
+                                        <div class="support__item-head support__item-right--head">
+                                            <h2 class="support__item-right--title">Блог создателя 1win</h2>
+                                            <p class="support__item-right--descr">О компании, о бизнесе и не только</p>
+                                        </div>
+                                        <div class="support__item-right--links">
+                                            <a href="#" class="support__item-right--link">
+                                                <img src="icons/telegram.svg" alt="telegram">
+                                            </a>
+                                            <a href="#" class="support__item-right--link">
+                                                <img src="icons/X.svg" alt="X">
+                                            </a>
+                                        </div>
+                                        <div class="support__item-right--img">
+                                            <img src="img/owner.avif" alt="owner" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <!-- Поддержка конец --> 
-        <!-- Ссылки на страницы начало --> 
-         <div class="footer__pageslink pageslink">
-            <div class="container">
-                <div class="pageslink__wrapper">
-                    <div class="pageslink__left">
-                        <div class="pageslink__information">
-                            <h2 class="pageslink__information-title">Информация</h2>
-                            <ul class="pageslink__information-list">
-                                <li><a href="#">Правила</a></li>
-                                <li><a href="#">Акции</a></li>
-                                <li><a href="#">Партнерская программа</a></li>
-                            </ul>
-                        </div>
-                        <div class="pageslink__category">
-                            <h2 class="pageslink__category-title">Категория</h2>
-                            <div class="pageslink__category-lists">
-                                <ul class="pageslink__category-list">
-                                    <li><a href="#">Live</a></li>
-                                    <li><a href="#">Pre-match</a></li>
-                                    <li><a href="#">Cybersport</a></li>
-                                    <li><a href="#">Бонусы</a></li>                                
-                                </ul>
-                                <ul class="pageslink__category-list">
-                                    <li><a href="#">Live</a></li>
-                                    <li><a href="#">Pre-match</a></li>
-                                    <li><a href="#">Cybersport</a></li>
-                                    <li><a href="#">Бонусы</a></li>                                
-                                </ul>
-                            </div>
-                           
-                        </div>
-                    </div>
-                    <div class="pageslink__apps">
-                        <div class="pageslink__item">
-                            <h3 class="pageslink__item-title">Бонус 200 1win Coins за установку приложения</h3>
-                            <p class="pageslink__item-descr">Доступно для Android и iOS</p>
-                            <button class="pageslink__item-btn">Установить</button>
-                            <div class="pageslink__item-img">
-                                <img src="img/mobile-ondesktop.avif" alt="телефон" loading="lazy">
-                            </div>
-                        </div>
+                    <!-- Поддержка конец --> 
+                    <!-- Ссылки на страницы начало --> 
+                    <div class="footer__pageslink pageslink">
+                        <div class="container">
+                            <div class="pageslink__wrapper">
+                                <div class="pageslink__left">
+                                    <div class="pageslink__information">
+                                        <h2 class="pageslink__information-title">Информация</h2>
+                                        <ul class="pageslink__information-list">
+                                            <li><a href="#">Правила</a></li>
+                                            <li><a href="#">Акции</a></li>
+                                            <li><a href="#">Партнерская программа</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="pageslink__category">
+                                        <h2 class="pageslink__category-title">Категория</h2>
+                                        <div class="pageslink__category-lists">
+                                            <ul class="pageslink__category-list">
+                                                <li><a href="#">Live</a></li>
+                                                <li><a href="#">Pre-match</a></li>
+                                                <li><a href="#">Cybersport</a></li>
+                                                <li><a href="#">Бонусы</a></li>                                
+                                            </ul>
+                                            <ul class="pageslink__category-list">
+                                                <li><a href="#">Live</a></li>
+                                                <li><a href="#">Pre-match</a></li>
+                                                <li><a href="#">Cybersport</a></li>
+                                                <li><a href="#">Бонусы</a></li>                                
+                                            </ul>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="pageslink__apps">
+                                    <div class="pageslink__item pageslink__item-appmobile">
+                                        <h3 class="pageslink__item-title">Бонус 200 1win Coins за установку приложения</h3>
+                                        <p class="pageslink__item-descr">Доступно для Android и iOS</p>
+                                        <button class="pageslink__item-btn">Установить</button>
+                                        <div class="pageslink__item-img">
+                                            <img src="img/mobile-ondesktop.avif" alt="телефон" loading="lazy">
+                                        </div>
+                                    </div>
 
-                        <div class="pageslink__item pageslink__item-desctop">
-                            <h3 class="pageslink__item-title">Приложение для Windows</h3>
-                            <button class="pageslink__item-btn">Установить</button>
-                            <div class="pageslink__item-img pageslink__item-img__desctop">
-                                <img src="img/desktop-v2.avif" alt="телефон" loading="lazy">
+                                    <div class="pageslink__item pageslink__item-desctop">
+                                        <h3 class="pageslink__item-title">Приложение для Windows</h3>
+                                        <button class="pageslink__item-btn">Установить</button>
+                                        <div class="pageslink__item-img pageslink__item-img__desctop">
+                                            <img src="img/desktop-v2.avif" alt="телефон" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-         </div>
-        <!-- Ссылки на страницы конец --> 
-        <!-- Ссылки на другие сайты начало --> 
-         <div class="footer__syte syte">
-            <div class="container">
-                <div class="syte__wrapper">
-                    <div class="syte__items">
-                        <div class="syte__items-wrapper">
-                            <a href="#" target="_blank" class="syte__img">
-                                <img src="icons/vk.svg" alt="VK">
-                            </a>
-                            <a href="#" target="_blank" class="syte__img">
-                                <img src="icons/telegram-footer.svg" alt="telegram">
-                            </a>
-                            <a href="#" target="_blank" class="syte__img">
-                                <img src="icons/youtube.svg" alt="youtube">
-                            </a>
-                            <a href="#" target="_blank" class="syte__img">
-                                <img src="icons/instagram.svg" alt="instagram">
-                            </a>
+                    <!-- Ссылки на страницы конец --> 
+                    <!-- Ссылки на другие сайты начало --> 
+                    <div class="footer__syte syte">
+                        <div class="container">
+                            <div class="syte__wrapper">
+                                <div class="syte__items">
+                                    <div class="syte__items-wrapper">
+                                        <a href="#" target="_blank" class="syte__img">
+                                            <img src="icons/vk.svg" alt="VK">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__img">
+                                            <img src="icons/telegram-footer.svg" alt="telegram">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__img">
+                                            <img src="icons/youtube.svg" alt="youtube">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__img">
+                                            <img src="icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="syte__items">
+                                    <div class="syte__items-wrapper">
+                                        <a href="#" target="_blank" class="syte__right-img">
+                                            <img src="icons/seal-of-approval.svg" alt="seal-of-approval">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__right-img">
+                                            <img src="icons/critique-jeu.svg" alt="critique-jeu">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__right-img">
+                                            <img src="icons/best-bitcoin-casino.svg" alt="best-bitcoin-casino">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__right-img">
+                                            <img src="icons/casinos-analyzer.svg" alt="casinos-analyzer">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__right-img syte__right-img-afiv">
+                                            <img src="icons/cricket-betting-wali-v2.avif" alt="cricket-betting-wali-v2">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__right-img">
+                                            <img src="icons/cricket-betting-guru.svg" alt="cricket-betting-guru">
+                                        </a>
+                                        <a href="#" target="_blank" class="syte__right-img">
+                                            <img src="icons/bookmaker-ratings.svg" alt="bookmaker-ratings">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Ссылки на другие сайты конец --> 
+                    <!-- Копирайт начало --> 
+                    <div class="copy">
+                        <div class="container">
+                            <div class="copy__wrapper">
+                                <div class="copy__copy"> © 2025 1WIN.</div>
+                                <div class="copy__age">18+</div>
+                            </div>
                         </div>
                     </div>
-                     <div class="syte__items">
-                        <div class="syte__items-wrapper">
-                            <a href="#" target="_blank" class="syte__right-img">
-                                <img src="icons/seal-of-approval.svg" alt="seal-of-approval">
-                            </a>
-                            <a href="#" target="_blank" class="syte__right-img">
-                                <img src="icons/critique-jeu.svg" alt="critique-jeu">
-                            </a>
-                            <a href="#" target="_blank" class="syte__right-img">
-                                <img src="icons/best-bitcoin-casino.svg" alt="best-bitcoin-casino">
-                            </a>
-                            <a href="#" target="_blank" class="syte__right-img">
-                                <img src="icons/casinos-analyzer.svg" alt="casinos-analyzer">
-                            </a>
-                            <a href="#" target="_blank" class="syte__right-img syte__right-img-afiv">
-                                <img src="icons/cricket-betting-wali-v2.avif" alt="cricket-betting-wali-v2">
-                            </a>
-                            <a href="#" target="_blank" class="syte__right-img">
-                                <img src="icons/cricket-betting-guru.svg" alt="cricket-betting-guru">
-                            </a>
-                            <a href="#" target="_blank" class="syte__right-img">
-                                <img src="icons/bookmaker-ratings.svg" alt="bookmaker-ratings">
-                            </a>
+                    <!-- Копирайт конец --> 
+                </footer>
+                <div class="menu__mobile">
+                    <div class="container">
+                        <div class="menu__mobile-wrapper">
+                            <div class="menu__mobile-item">
+                                <button class="menu__mobile-hamburger">                
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                                <div class="menu__mobile-name">Меню</div>
+                            </div>  
+                            <div class="menu__mobile-item">
+                                <button class="menu__mobile-img">                
+                                    <img src="icons/home.svg" alt="Дом" loading="lazy">
+                                </button>
+                                <div class="menu__mobile-name">Главная</div>
+                            </div>  
+                            <div class="menu__mobile-item">
+                                <button class="menu__mobile-img">                
+                                    <img src="icons/casino.svg" alt="Казино" loading="lazy">
+                                </button>
+                                <div class="menu__mobile-name">Казино</div>
+                            </div> 
+                            <div class="menu__mobile-item">
+                                <button class="menu__mobile-img">                
+                                    <img src="icons/gift.svg" alt="Free money" loading="lazy">
+                                </button>
+                                <div class="menu__mobile-name">Free money</div>
+                            </div>  
+                            <div class="menu__mobile-item">
+                                <button class="menu__mobile-img">                
+                                    <img src="icons/sport.svg" alt="Спорт" loading="lazy">
+                                </button>
+                                <div class="menu__mobile-name">Спорт</div>
+                            </div>     
                         </div>
-                    </div>
+                    </div>        
                 </div>
-            </div>
-            
-         </div>
-        <!-- Ссылки на другие сайты конец --> 
-        <!-- Копирайт начало --> 
-         <div class="copy">
-            <div class="container">
-                <div class="copy__wrapper">
-                    <div class="copy__copy"> © 2025 1WIN.</div>
-                    <div class="copy__age">18+</div>
-                </div>
-            </div>
-         </div>
-        <!-- Копирайт конец --> 
-    </footer>
-    <div class="menu__mobile">
-        <div class="container">
-            <div class="menu__mobile-wrapper">
-                <div class="menu__mobile-item">
-                    <button class="menu__mobile-hamburger">                
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <div class="menu__mobile-name">Меню</div>
-                </div>  
-                <div class="menu__mobile-item">
-                    <button class="menu__mobile-img">                
-                        <img src="icons/home.svg" alt="Дом" loading="lazy">
-                    </button>
-                    <div class="menu__mobile-name">Главная</div>
-                </div>  
-                <div class="menu__mobile-item">
-                    <button class="menu__mobile-img">                
-                        <img src="icons/casino.svg" alt="Казино" loading="lazy">
-                    </button>
-                    <div class="menu__mobile-name">Казино</div>
-                </div> 
-                <div class="menu__mobile-item">
-                    <button class="menu__mobile-img">                
-                        <img src="icons/gift.svg" alt="Free money" loading="lazy">
-                    </button>
-                    <div class="menu__mobile-name">Free money</div>
-                </div>  
-                <div class="menu__mobile-item">
-                    <button class="menu__mobile-img">                
-                        <img src="icons/sport.svg" alt="Спорт" loading="lazy">
-                    </button>
-                    <div class="menu__mobile-name">Спорт</div>
-                </div>     
-            </div>
         </div>
-        
     </div>
+    
+   
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/information.js"></script>
