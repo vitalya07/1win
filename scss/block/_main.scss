@@ -5,9 +5,13 @@
         align-items: start;
         justify-content: space-between;
         gap: 16px;
+        width: 100%;
+        overflow: hidden; /* или auto */
+        box-sizing: border-box;
     }
     &__slider {
-        width:940px;
+        width:100%;
+        max-width: 940px;
         &-item {
             width: 100%;
             height: 400px;

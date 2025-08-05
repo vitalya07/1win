@@ -239,9 +239,14 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 16px;
+  width: 100%;
+  overflow: hidden; /* или auto */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .main__slider {
-  width: 940px;
+  width: 100%;
+  max-width: 940px;
 }
 .main__slider-item {
   width: 100%;
@@ -1978,7 +1983,7 @@ ul {
     max-width: 1450px;
   }
   .main__slider {
-    width: 850px;
+    max-width: 850px;
   }
   .main__slider-title {
     max-width: 50%;
@@ -1989,7 +1994,7 @@ ul {
     max-width: 1280px;
   }
   .main__slider {
-    width: 730px;
+    max-width: 730px;
   }
   .main__slider-title {
     max-width: 50%;
@@ -2004,7 +2009,7 @@ ul {
     margin: 0 auto;
   }
   .main__slider {
-    width: 730px;
+    max-width: 730px;
   }
   .main__slider-title {
     max-width: 50%;
@@ -2315,7 +2320,7 @@ ul {
     max-width: 1100px;
   }
   .main__slider {
-    width: 625px;
+    max-width: 625px;
   }
   .main__slider-item {
     height: 250px;
@@ -2362,15 +2367,13 @@ ul {
   .right {
     max-width: 800px;
   }
-  .main {
-    width: 100%;
-  }
   .main__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
+    max-width: 800px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -2379,9 +2382,7 @@ ul {
             align-items: center;
   }
   .main__slider {
-    padding: 10px;
     overflow: hidden;
-    width: 100%;
   }
   .main__slider-item {
     height: 320px;
@@ -2440,15 +2441,18 @@ ul {
 @media (max-width: 768px) {
   .columns {
     gap: 0;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .left {
     width: 0;
   }
   .right {
-    max-height: 550px;
+    max-width: 550px;
+  }
+  .main__wrapper {
+    max-width: 600px;
   }
   .main__freemoney-img {
     display: none;
@@ -2484,6 +2488,9 @@ ul {
   }
 }
 @media (max-width: 556px) {
+  .right {
+    max-width: 450px;
+  }
   .main__slider-arrows {
     display: none;
   }
@@ -2504,10 +2511,19 @@ ul {
   .copy {
     margin-bottom: 50px;
   }
+  .support__item-btn {
+    width: 170px;
+    font-size: 12px;
+  }
 }
-@media (max-width: 360px) {
+@media (max-width: 450px) {
+  .right {
+    max-width: 360px;
+  }
   .main__slider-title {
-    font-size: 18px;
+    font-size: 16px;
+    max-width: 80%;
+    line-height: 160%;
   }
   .deposit__wrapper {
     height: 320px;
@@ -2521,5 +2537,16 @@ ul {
     gap: 20px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .support__left {
+    height: 130px;
+  }
+  .support__item-btn {
+    position: static;
+  }
+}
+@media (max-width: 360px) {
+  .right {
+    max-width: 320px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@
     }
     .main {
         &__slider {
-           width: 850px;
+           max-width: 850px;
            &-title {
                 max-width: 50%;
            }
@@ -17,7 +17,7 @@
     }
     .main {
         &__slider {
-           width: 730px;
+           max-width: 730px;
            &-title {
                 max-width: 50%;
            }
@@ -36,7 +36,7 @@
     }
     .main {
         &__slider {
-            width: 730px;
+            max-width: 730px;
             &-title {
                 max-width: 50%;
             }
@@ -342,7 +342,7 @@
     }
     .main {
         &__slider {
-            width: 625px;
+            max-width: 625px;
             &-item {
                 height: 250px;
             }
@@ -397,17 +397,16 @@
         max-width: 800px;
     }
     .main {
-        width: 100%;
         &__wrapper {
             flex-direction: column;
             width: 100%;
+            max-width: 800px;
             justify-content: center;
             align-items: center;
         }
         &__slider {
-            padding: 10px;
             overflow: hidden;
-            width: 100%;
+            // width: 100%;
             &-item {
                 height: 320px;
             }
@@ -470,15 +469,18 @@
 @media (max-width:768px) {
     .columns {
         gap: 0;
-        justify-content: start;
+        justify-content: center;
     }
     .left {
         width: 0;
     }
     .right {
-        max-height: 550px;
+        max-width: 550px;
     }
     .main {
+       &__wrapper {
+        max-width: 600px;
+       }
         &__freemoney {
             &-img {
                 display: none;
@@ -516,6 +518,9 @@
     }
 }
 @media (max-width: 556px) {
+    .right {
+        max-width: 450px;
+    }
     .main__slider-arrows {
         display: none;
     }
@@ -552,12 +557,25 @@
     .copy {
         margin-bottom: 50px;
     }
+    .support {
+        &__item {
+            &-btn {
+                width: 170px;
+                font-size: 12px;
+            }
+        }
+    }
 }
-@media (max-width: 360px) {
+@media (max-width: 450px) {
+    .right {
+        max-width: 360px;
+    }
     .main {
         &__slider {
             &-title {
-                font-size: 18px;
+                font-size: 16px;
+                max-width: 80%;
+                line-height: 160%;
             }
         }
     }
@@ -578,4 +596,20 @@
             flex-wrap: wrap;
         }
     }
+    .support {
+        &__left {
+            height: 130px;
+        }
+        &__item {
+            &-btn {
+                position: static;
+            }
+        }
+    }
+}
+@media (max-width: 360px) {
+   .right {
+        max-width: 320px;
+   }
+    
 }

@@ -7,7 +7,6 @@ const mainSwiper = new Swiper(".main__swiper", {
 const winGamesSwiper = new Swiper(".win-games__swiper", {
     slidesPerView: 6,
     spaceBetween: 17,
-    loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -32,7 +31,6 @@ const winGamesSwiper = new Swiper(".win-games__swiper", {
 const allGamesSwiper = new Swiper(".all-games__swiper", {
     slidesPerView: 4,
     spaceBetween: 17,
-    loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -56,7 +54,6 @@ const allGamesSwiper = new Swiper(".all-games__swiper", {
 });
 const liveCasinoSwiper = new Swiper(".live-casino-swiper", {
     slidesPerView: 6,
-    loop: true,
     spaceBetween: 10,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -82,7 +79,6 @@ const liveCasinoSwiper = new Swiper(".live-casino-swiper", {
 const popularSwiper = new Swiper(".popular-swiper", {
     slidesPerView: 1,
     spaceBetween: 10,
-    loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
